@@ -15,6 +15,7 @@ interface ConceptIntroProps {
   difficulty: string;
   onStart: () => void;
   onBack: () => void;
+  onNewGame?: () => void;
   hasSavedGame?: boolean;
 }
 
@@ -103,6 +104,7 @@ export default function ConceptIntro({
   difficulty,
   onStart,
   onBack,
+  onNewGame,
   hasSavedGame,
 }: ConceptIntroProps) {
   const flow = CONCEPT_FLOWS[concept];
@@ -283,6 +285,15 @@ export default function ConceptIntro({
           >
             {hasSavedGame ? "Resume Game →" : "Start Playing →"}
           </motion.button>
+          {hasSavedGame && onNewGame && (
+            <button
+              onClick={onNewGame}
+              className="block mx-auto text-xs font-semibold px-6 py-2 rounded-lg transition-colors"
+              style={{ color: "#E0E0E0", border: "1px solid #2a6080" }}
+            >
+              Start New Game
+            </button>
+          )}
           {hasSavedGame && (
             <p className="text-[10px]" style={{ color: "#EDC400" }}>
               You have a saved game in progress

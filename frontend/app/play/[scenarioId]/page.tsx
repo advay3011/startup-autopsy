@@ -244,6 +244,10 @@ export default function PlayPage() {
         }}
         onBack={() => router.push("/scenarios")}
         hasSavedGame={!!saved}
+        onNewGame={() => {
+          deleteSave(scenarioId);
+          dispatch({ type: "START_GAME" });
+        }}
       />
     );
   }
