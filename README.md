@@ -1,4 +1,4 @@
-# StartupAutopsy 💀
+# StartupAutopsy 
 
 **Learn financial literacy by destroying real companies.**
 
