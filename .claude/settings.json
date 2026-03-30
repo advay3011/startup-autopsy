@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(jq -r '.tool_input.file_path // empty' 2>/dev/null); if echo \"$FILE\" | grep -qE 'scenarios/.*\\.json$'; then echo \"{\\\"systemMessage\\\": \\\"WARNING: Modifying scenario file: $FILE — ensure financial data and decision logic are validated before saving.\\\"}\"; fi",
+            "statusMessage": "Checking scenario file protection..."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(jq -r '.tool_input.file_path // empty' 2>/dev/null); if echo \"$FILE\" | grep -qE '\\.py$' && [ -f \"$FILE\" ]; then python3 -m py_compile \"$FILE\" 2>&1 && echo \"{\\\"hookSpecificOutput\\\": {\\\"hookEventName\\\": \\\"PostToolUse\\\", \\\"additionalContext\\\": \\\"Python syntax OK: $FILE\\\"}}\" || echo \"{\\\"hookSpecificOutput\\\": {\\\"hookEventName\\\": \\\"PostToolUse\\\", \\\"additionalContext\\\": \\\"SYNTAX ERROR in $FILE — fix before proceeding\\\"}}\"; fi",
+            "statusMessage": "Running Python syntax check..."
+          },
+          {
+            "type": "command",
+            "command": "FILE=$(jq -r '.tool_input.file_path // empty' 2>/dev/null); if echo \"$FILE\" | grep -qE '\\.(ts|tsx)$'; then FRONTEND=/Users/srikariyaden/hackenomics/startup-autopsy/frontend; if [ -f \"$FRONTEND/node_modules/.bin/tsc\" ]; then cd \"$FRONTEND\" && node_modules/.bin/tsc --noEmit 2>&1 | head -20; else echo \"{\\\"hookSpecificOutput\\\": {\\\"hookEventName\\\": \\\"PostToolUse\\\", \\\"additionalContext\\\": \\\"TypeScript check skipped — run npm install in frontend/ first\\\"}}\"; fi; fi",
+            "statusMessage": "Running TypeScript type check..."
+          }
+        ]
+      }
+    ]
+  }
+}

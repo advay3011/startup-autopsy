@@ -1,0 +1,763 @@
+{
+  "id": "juicero_unit_economics",
+  "company": "Juicero",
+  "concept": "Unit Economics",
+  "concept_description": "Do you make or lose money on each individual unit sold? If every sale makes you poorer, more sales just make it worse.",
+  "concept_analogy": "Imagine selling $20 bills for $15 each. You might get very popular very fast — but the faster you grow, the faster you go broke. Unit economics is the question: does selling one more unit make you richer or poorer?",
+  "industry": "Hardware/Consumer Product",
+  "emoji": "🥤",
+  "tagline": "Burned $120M selling a machine that squeezed juice bags",
+  "difficulty": "beginner",
+  "opening_story": "It's early 2016. You just raised $120 million from Google Ventures, Kleiner Perkins, and others who backed Google, Amazon, and Genentech. Your product: a $400 WiFi-connected juice press that squeezes proprietary cold-pressed juice packets. The design is beautiful. The engineering is impressive. The produce is organic. There's just one number that nobody at the pitch deck is talking about: your machine costs $400 to manufacture and you're selling it for $400. Every unit you ship earns you exactly zero dollars.",
+  "initial_financials": {
+    "cash": 67500000,
+    "monthly_burn": 4500000,
+    "monthly_revenue": 120000,
+    "subscribers": 800,
+    "runway_months": 15,
+    "health_score": 55,
+    "health_breakdown": {
+      "burn_rate_health": 50,
+      "revenue_growth": 20,
+      "unit_economics": 15,
+      "cash_flow": 45,
+      "investor_confidence": 75
+    }
+  },
+  "decisions": [
+    {
+      "id": "d1",
+      "decision_number": 1,
+      "situation": "Your pricing team just ran the final numbers. The Juicero machine costs $400 to manufacture. You're about to set your retail price. Everything downstream — margins, growth, survival — depends on this number.",
+      "context": "You can price to cover costs, price for profit, subsidize the hardware to make money on juice packets, or lease the machine like a Keurig or printer. Each strategy teaches a different lesson about what 'making money on hardware' actually means.",
+      "concept_being_taught": "gross_margin",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Price at $400 — cover manufacturing cost, make money on juice packets",
+          "short_label": "Break even",
+          "outcome_label": "RISKY",
+          "consequence_story": "You price the machine at $400. Every machine you sell earns you exactly nothing on the hardware. Your plan is to make money on juice packets instead. But here's the problem: you still pay $4 million a month in salaries, rent, and operations whether you sell 10 machines or 10,000. Hardware with zero gross margin means your fixed costs have no cushion — and every dollar of burn has to come from packet revenue alone.",
+          "plain_english_explanation": "Gross margin is the money left after you subtract what it cost to make the product you just sold. If your machine costs $400 to make and sells for $400, the gross margin is zero. You've covered your materials and manufacturing — but you haven't contributed a single dollar toward rent, salaries, or anything else. A business with zero hardware gross margin needs its other revenue stream to be massive just to survive.",
+          "concept_explained": "Gross margin: revenue minus cost of goods sold (COGS), expressed as a percentage. A $400 machine with $400 COGS has 0% gross margin. Every business needs positive gross margin to eventually cover its fixed costs and reach profitability.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 300000,
+            "subscriber_change": 2000,
+            "health_score_change": -8,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero launched at $400 — exactly its manufacturing cost — generating zero gross margin on every machine sold"
+        },
+        {
+          "id": "b",
+          "text": "Price at $700 — build in a $300 gross margin per unit",
+          "short_label": "Price for profit",
+          "outcome_label": "SMART",
+          "consequence_story": "You set the price at $700. Sales are slower than the $400 version — not everyone will pay $700 for a juice machine. But the ones who do generate $300 of gross margin each. For every 100 machines sold, $30,000 contributes toward covering overhead. It's not enough to save the business alone, but it's the first time a revenue stream is actually contributing something real.",
+          "plain_english_explanation": "At $700, you earn $300 per machine after manufacturing costs. That $300 is gross profit — money that can go toward covering salaries, rent, and marketing. Premium pricing works if enough customers are willing to pay it, and in the organic health-food market, a $700 price point isn't unreasonable.",
+          "concept_explained": "Gross margin creates a buffer between revenue and the cost of making your product. The higher the gross margin, the more each sale contributes toward the fixed costs of running the business. A 43% gross margin ($300/$700) gives the juice packet revenue a fighting partner instead of leaving it to carry the entire company alone.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 700000,
+            "subscriber_change": 1000,
+            "health_score_change": 9,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Price at $200 — subsidize the hardware, sell more machines, make it up on packets",
+          "short_label": "Subsidize hardware",
+          "outcome_label": "RISKY",
+          "consequence_story": "You sell the machine for $200 — a $200 loss on every unit. It's the Keurig model: give away the razor, sell the blades. Machines fly off the shelves. Packet subscriptions pour in. But with every machine sold, you're $200 poorer — and you need years of packet revenue to recoup that loss per customer. Meanwhile your burn rate climbs as manufacturing ramps up.",
+          "plain_english_explanation": "Subsidizing hardware works when the lifetime value of the customer (LTV) far exceeds the hardware subsidy. Keurig's pods cost $0.50 to make and sell for $1.50. Juicero's packets cost $3-4 to make and sell for $7-8 — a thin margin that takes a long time to pay back a $200-per-unit hardware subsidy.",
+          "concept_explained": "Hardware subsidy strategy trades upfront losses for long-term subscription revenue. It only works when: (1) gross margin on recurring revenue is high, and (2) customers stay long enough to pay back the subsidy. Thin packet margins and high churn make this a losing bet for Juicero.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 2000000,
+            "monthly_revenue_change": 900000,
+            "subscriber_change": 5000,
+            "health_score_change": -5,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Lease the machine at $50/month — recurring revenue, low barrier to entry",
+          "short_label": "Lease model",
+          "outcome_label": "BOLD",
+          "consequence_story": "You charge $50/month to lease the machine and $5-8 per packet. No upfront $400 sticker shock. Customers can try it without commitment. Subscriptions grow faster. But you're still manufacturing a $400 machine and only collecting $50/month — it takes 8 months just to cover hardware cost, during which you carry all the risk if the customer cancels.",
+          "plain_english_explanation": "Leasing turns a one-time sale into recurring revenue — but it defers when you recover your manufacturing cost. If customers cancel after 3 months, you've collected $150 on a machine that cost $400 to make. The lease model works only if you can accurately predict how long customers stay.",
+          "concept_explained": "Lease models spread revenue over time but concentrate manufacturing cost upfront. For hardware with high COGS, the breakeven on a leased unit is many months away — and every cancellation before breakeven is a loss, not a neutral outcome.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 1000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 3000,
+            "health_score_change": 3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Gross margin is the money left after subtracting manufacturing cost from your sale price. A product with zero gross margin contributes nothing toward covering the rest of your business — and a business with zero gross margin on its flagship product is surviving on borrowed time."
+    },
+    {
+      "id": "d2",
+      "decision_number": 2,
+      "situation": "Your contract manufacturer tells you that with a few material substitutions and a simplified assembly process, you can cut the machine's manufacturing cost from $400 to $250. Quality would be 90% as good. The engineering team has concerns.",
+      "context": "Every dollar you cut from COGS is a dollar of gross margin you gain on every machine sold forever. But the original design was part of the brand. And Juicero's investors funded a premium product — not a cost-cut version.",
+      "concept_being_taught": "cogs",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep the $400 COGS — the premium build quality is part of the brand",
+          "short_label": "Keep quality",
+          "outcome_label": "RISKY",
+          "consequence_story": "You hold the line on quality. The machine remains beautifully built, over-engineered, and exactly as expensive to make as it is to buy. Your investors are pleased. Your unit economics are unchanged. You continue to ship a product where every hardware sale produces zero gross margin — and every packet sale has to carry the entire overhead of the company.",
+          "plain_english_explanation": "Cost of Goods Sold (COGS) is everything it costs to manufacture and deliver one unit of your product. If your COGS equals your sale price, your gross margin is zero. The higher your COGS, the harder it is to ever make money — because every sale starts in the hole before you pay for a single employee or office.",
+          "concept_explained": "COGS (Cost of Goods Sold): the direct cost to produce and deliver one unit — materials, manufacturing, assembly, shipping. COGS is the first number subtracted from revenue. Keeping COGS high when you can reduce it without destroying the product is a choice to stay unprofitable.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -6,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero never significantly reduced its manufacturing costs, maintaining ~$400 COGS throughout its entire operating life"
+        },
+        {
+          "id": "b",
+          "text": "Accept the redesign — cut COGS to $250 and gain $150 per unit in gross margin",
+          "short_label": "Cut COGS",
+          "outcome_label": "SMART",
+          "consequence_story": "You take the deal. The retooling costs $3 million and takes four months. When the new units start shipping, each machine sold at $400 now earns $150 of gross margin instead of zero. For every 1,000 machines sold, $150,000 flows toward paying your overhead. It's not salvation — but it's the first time hardware is contributing something real to the business.",
+          "plain_english_explanation": "Cutting COGS from $400 to $250 converts every machine sale from a zero-margin event into a $150 gross profit contribution. That $150 helps pay salaries, marketing, and rent. Reducing COGS is often the highest-leverage thing a hardware company can do because the savings compound across every unit sold, forever.",
+          "concept_explained": "Every dollar you cut from COGS is a dollar of gross margin gained on every future unit sold. Unlike cutting a one-time expense, COGS reduction is a permanent structural improvement to the unit economics of every product in inventory.",
+          "financial_impact": {
+            "cash_change": -3000000,
+            "monthly_burn_change": -1500000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 8,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Redesign the product from scratch — target $100 COGS over 18 months",
+          "short_label": "Full redesign",
+          "outcome_label": "BOLD",
+          "consequence_story": "You launch a complete hardware redesign targeting $100 COGS. The engineering team is thrilled. The timeline is 18 months. You spend $8 million on the project, hire more engineers, and delay a marketing push while the new product is in development. Eighteen months later, if you survive that long, you'll have dramatically better unit economics. But 18 months is a long time to run on a broken business model.",
+          "plain_english_explanation": "A full redesign targets the best possible unit economics — but takes the longest to pay off. The danger is the gap between now and then: during those 18 months, you're still selling the $400-COGS machine, still burning cash, and hoping the new version ships on time and actually works.",
+          "concept_explained": "COGS reduction timelines matter as much as the target. A 50% COGS cut that takes 18 months to realize may save the business on paper but still fail in practice if cash runs out during the transition. Always calculate: can we survive long enough to benefit from the cost reduction?",
+          "financial_impact": {
+            "cash_change": -8000000,
+            "monthly_burn_change": 1000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 3,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Find an offshore contract manufacturer — cut to $280 COGS with minimal quality change",
+          "short_label": "Offshore manufacturing",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "A Taiwan manufacturer quotes you $280 per unit with comparable quality. The transition costs $1.5 million and creates a 60-day supply gap. But when it's done, every machine generates $120 of gross margin at the current $400 price. Small wins matter when you're fighting for every dollar.",
+          "plain_english_explanation": "Offshore manufacturing reduced COGS by $120 per unit without changing the product in any visible way. For a hardware business, finding lower-cost production while maintaining quality is often the fastest path to positive gross margin.",
+          "concept_explained": "COGS reduction doesn't always require product redesign — sometimes it requires supply chain optimization. Finding a better manufacturer, better materials, or a better process can lower COGS while maintaining the product customers see and use.",
+          "financial_impact": {
+            "cash_change": -1500000,
+            "monthly_burn_change": -1000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 5,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "COGS is the first number subtracted from every dollar of revenue you earn. A high COGS doesn't just reduce your profit on each sale — it puts a ceiling on how profitable the business can ever become, no matter how many units you sell."
+    },
+    {
+      "id": "d3",
+      "decision_number": 3,
+      "situation": "You need customers. Your website is your only sales channel. The problem: acquiring customers online for a $400 appliance costs more than $400 per customer in ads and marketing. You're paying more to get each customer than you earn on their first purchase.",
+      "context": "Customer Acquisition Cost (CAC) is how much you spend to get one paying customer. Your DTC CAC is running above $400. Retail, B2B, and partnership channels could lower it dramatically — but each has tradeoffs.",
+      "concept_being_taught": "customer_acquisition_cost",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Stay DTC-only — control the customer experience end-to-end",
+          "short_label": "DTC only",
+          "outcome_label": "RISKY",
+          "consequence_story": "You double down on the website. Every Facebook ad, every influencer partnership, every Google search campaign brings in customers — at $400-600 per customer. You're spending more on acquisition than the machine earns at launch. Your CAC/LTV math requires customers to order juice packets for 18+ months just to break even on what it cost to get them. Most cancel long before that.",
+          "plain_english_explanation": "Customer Acquisition Cost (CAC) is how much you spend — in ads, sales effort, and marketing — to get one paying customer. If your CAC is $400 and your gross profit per customer is zero on the hardware and $3-4 per packet, you need the customer to buy 100+ packets before you've paid back what it cost to get them. That's a losing math.",
+          "concept_explained": "CAC (Customer Acquisition Cost): total sales and marketing spend divided by new customers acquired. When CAC exceeds the gross profit from a customer's first purchase, you need high lifetime value (LTV) and low churn to eventually break even — and even then, you're paying for every customer twice before you see a dollar of profit.",
+          "financial_impact": {
+            "cash_change": -2000000,
+            "monthly_burn_change": 2000000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 500,
+            "health_score_change": -7,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero sold primarily through its website at launch, with CAC estimated well above $400 per customer — more than the machine's entire sale price"
+        },
+        {
+          "id": "b",
+          "text": "Partner with Whole Foods and Williams-Sonoma — let retail do the acquisition work",
+          "short_label": "Go retail",
+          "outcome_label": "SMART",
+          "consequence_story": "You negotiate shelf space at Whole Foods and Williams-Sonoma. Both chains attract exactly your target customer: health-conscious, affluent, willing to spend $400 on a quality kitchen appliance. Acquisition cost per customer drops from $400+ to under $80 — because the retailer's foot traffic does the work. You give up 30% margin to the retailer, but you gain five times as many customers for the same marketing spend.",
+          "plain_english_explanation": "Retail distribution reduces CAC by using the store's existing traffic instead of paying to build your own. At $80 CAC vs $400, you're acquiring five customers for the cost of one DTC customer. Even after the retailer's cut, the unit economics improve dramatically.",
+          "concept_explained": "Distribution channel choice is one of the most powerful levers over CAC. A channel with high foot traffic from your target customer can acquire customers for a fraction of the cost of building your own DTC audience from scratch.",
+          "financial_impact": {
+            "cash_change": -500000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 700000,
+            "subscriber_change": 2500,
+            "health_score_change": 8,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Go B2B — sell to corporate wellness programs in tech company offices",
+          "short_label": "Corporate B2B",
+          "outcome_label": "BOLD",
+          "consequence_story": "You pivot to B2B: pitch tech companies on Juicero as a corporate wellness perk. One Google office buys 40 machines and a weekly packet subscription. One Salesforce deal is worth more than 200 consumer DTC customers — and you made one sales call instead of 200 Facebook campaigns. CAC for enterprise drops to under $50 per person reached.",
+          "plain_english_explanation": "B2B sales aggregate demand — one corporate buyer represents hundreds of individual users. When each sale is large and the buyer comes to you via a short sales cycle, your CAC per end user becomes a fraction of direct consumer acquisition. B2B also creates more predictable recurring revenue from bulk packet subscriptions.",
+          "concept_explained": "B2B channels can dramatically reduce effective CAC when a single buyer represents many users. The tradeoff: longer sales cycles, price negotiation, and the risk of losing a big account, which removes many customers at once.",
+          "financial_impact": {
+            "cash_change": -300000,
+            "monthly_burn_change": 800000,
+            "monthly_revenue_change": 1200000,
+            "subscriber_change": 4000,
+            "health_score_change": 9,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Partner with SoulCycle and yoga studios — target health-obsessed urban professionals",
+          "short_label": "Gym partnerships",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You partner with SoulCycle and a chain of yoga studios. Branded Juicero machines appear in lobbies. Members can order packets at a discount. CAC drops to around $120 per customer — better than DTC, but you're still paying setup fees and ongoing commissions. The customer base is loyal but small, and the deal requires expensive co-marketing that partially eats the CAC savings.",
+          "plain_english_explanation": "Partnership channels reduce CAC compared to pure DTC by borrowing the partner's audience. But the best partnerships come at a cost — revenue sharing, co-marketing obligations, and exclusivity constraints. The net CAC improvement depends on whether the partnership terms leave enough margin to make it worth it.",
+          "concept_explained": "Not all distribution partnerships are equal — the net CAC reduction depends on the deal terms. A partnership that cuts your marketing spend in half but requires a 40% revenue share may not improve the unit economics as much as it appears on paper.",
+          "financial_impact": {
+            "cash_change": -400000,
+            "monthly_burn_change": 600000,
+            "monthly_revenue_change": 450000,
+            "subscriber_change": 1800,
+            "health_score_change": 4,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Customer Acquisition Cost is how much you spend to get one paying customer. When your CAC exceeds your gross profit on the first sale, you start every customer relationship already in the hole — and you need years of packet revenue just to get back to zero."
+    },
+    {
+      "id": "d4",
+      "decision_number": 4,
+      "situation": "Customers buy the machine — then order juice packets inconsistently. Some order weekly, some monthly, some trail off after 6 weeks. Without a subscription lock-in, your best customers and your churning customers look identical until it's too late.",
+      "context": "Unit economics depend on Lifetime Value (LTV) — how much a customer pays you over their entire time with you. High churn destroys LTV. A subscription commitment extends how long customers stay and makes your revenue predictable.",
+      "concept_being_taught": "unit_economics",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep ordering flexible — let customers buy packets whenever they want",
+          "short_label": "No lock-in",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You keep ordering fully flexible. Customers love the freedom. They also take full advantage of it — ordering enthusiastically for 6 weeks, then forgetting the machine exists. Average customer LTV is running at $240: 30 packets over 3 months before churn. Your CAC was $400. You spent $400 to acquire a customer worth $240. You are losing $160 on every customer, before accounting for any overhead.",
+          "plain_english_explanation": "LTV (Lifetime Value) is how much revenue a customer generates from their first order until they stop buying. If LTV is less than CAC, every customer you acquire makes you poorer. With $400 CAC and $240 LTV, you lose $160 for every single person who tries Juicero — and the more customers you acquire, the bigger the loss.",
+          "concept_explained": "Unit economics: the relationship between what you earn from one customer (LTV) and what you spend to get them (CAC). When CAC > LTV, the business model loses money on every customer at scale. Adding more customers doesn't fix this — it accelerates the loss.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": -200000,
+            "subscriber_change": -1000,
+            "health_score_change": -7,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero offered no meaningful subscription lock-in — customers ordered packets on-demand with no commitment, driving high churn and low LTV"
+        },
+        {
+          "id": "b",
+          "text": "Launch subscription tiers — weekly and bi-weekly packet deliveries with discounts",
+          "short_label": "Subscription tiers",
+          "outcome_label": "SMART",
+          "consequence_story": "You launch two plans: weekly delivery at $35/week and bi-weekly at $20/week. Customers who commit to subscriptions get 15% off each packet. Churn drops immediately — the slight price discount and the commitment nudge customers into forming a juice habit. Average LTV for subscribers runs at $900: nine months of bi-weekly orders. Suddenly the math starts looking different.",
+          "plain_english_explanation": "Subscription models increase LTV by keeping customers in a recurring cycle rather than relying on them to come back voluntarily. A customer with $900 LTV and $400 CAC is a customer who generates $500 of gross contribution over their lifetime — finally positive.",
+          "concept_explained": "Subscription models extend LTV by reducing churn. When LTV exceeds CAC, each customer acquired is eventually worth acquiring. The subscription doesn't just predict revenue — it makes the unit economics of the business viable.",
+          "financial_impact": {
+            "cash_change": -500000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 900000,
+            "subscriber_change": 2500,
+            "health_score_change": 10,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Annual subscription upfront — pay $600 for a year of weekly packets",
+          "short_label": "Annual prepay",
+          "outcome_label": "BOLD",
+          "consequence_story": "You launch an annual plan at $600 — equivalent to $50/month. Customers who pay upfront give you cash immediately and commit for 12 months. Conversion rates are lower — not everyone will commit $600 upfront — but the customers who do are your most valuable by far. They're paying 12 months in advance and their churn is essentially zero.",
+          "plain_english_explanation": "Annual upfront subscriptions collect all the LTV immediately, eliminating churn risk for that customer for a full year. The tradeoff is lower conversion rates — fewer people will commit $600 at once. But the customers who do are exactly the high-LTV customers your unit economics need.",
+          "concept_explained": "Prepaid annual subscriptions trade lower conversion rates for guaranteed LTV. In unit economics, a customer with guaranteed 12-month LTV is worth more than one with the same average LTV if that average includes a 40% chance of churning after 2 months.",
+          "financial_impact": {
+            "cash_change": 2000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 300000,
+            "subscriber_change": 400,
+            "health_score_change": 5,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Free first month of packets — remove the commitment barrier, convert to paid",
+          "short_label": "Free trial",
+          "outcome_label": "BOLD",
+          "consequence_story": "You offer free packets for the first month to anyone who buys a machine. Downloads spike. New customers are thrilled. Then month two arrives: 60% convert to paid subscriptions and 40% quietly go silent. The free trial cost $1 million in packet inventory given away. Of the converts, average paid LTV is 8 months — better than before, but the cost of the trial erodes the economics again.",
+          "plain_english_explanation": "Free trials lower the barrier to trying the product, but they cost real money — every free packet has COGS. The economics only work if the conversion rate and subsequent LTV justify the trial cost. If 40% churn after the free month, you've spent $1M acquiring customers who gave you nothing in return.",
+          "concept_explained": "Trial programs trade upfront acquisition cost for higher conversion probability. The unit economics of a free trial depend on: (1) what the trial costs per user, (2) the conversion rate, and (3) the LTV of converted users. Model all three before committing.",
+          "financial_impact": {
+            "cash_change": -1000000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 400000,
+            "subscriber_change": 1800,
+            "health_score_change": 3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Unit economics is the relationship between what you earn from one customer (LTV) and what you spent to get them (CAC). When LTV is less than CAC, every customer acquired makes the business poorer — and no amount of growth or fundraising changes that math."
+    },
+    {
+      "id": "d5",
+      "decision_number": 5,
+      "situation": "April 2017. Bloomberg reporters publish a video showing Juicero juice packets being squeezed by hand — no $400 machine required. Within 24 hours the story is everywhere. Sales collapse 70%. Your investors are calling.",
+      "context": "The Bloomberg story didn't just embarrass you — it destroyed the core value proposition of your product. The machine now appears to be a $400 solution to a problem that doesn't exist. How you respond will determine whether there's a company left in six months.",
+      "concept_being_taught": "contribution_margin",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Defend the machine publicly — it ensures consistent pressure and tracks freshness",
+          "short_label": "Defend it",
+          "outcome_label": "RISKY",
+          "consequence_story": "You send a letter to customers explaining that the machine provides consistent pressure, monitors packet freshness, and ensures safety. It's technically true. Nobody cares. The story isn't about pressure — it's about the $400 machine being a luxury solution to a $0 problem. PR spend increases. Sales continue to crater. Each new press mention puts 'hand-squeezable juice bags' and '$400 machine' in the same sentence, over and over.",
+          "plain_english_explanation": "When a product's core value proposition is destroyed publicly, defending it with technical details doesn't fix the fundamental problem. Contribution margin — the money left from a sale after subtracting only the variable cost to make it — on a machine with zero gross margin and collapsing sales is now deeply negative — every unit manufactured and unsold is cash tied up in inventory that can't be recovered.",
+          "concept_explained": "Contribution margin is the revenue from a sale minus only the variable costs of that sale — what it actually 'contributes' toward fixed costs. When sales collapse, contribution margin on hardware goes to zero or negative. A product with zero contribution margin during a crisis burns through overhead with nothing to offset it.",
+          "financial_impact": {
+            "cash_change": -3000000,
+            "monthly_burn_change": 1000000,
+            "monthly_revenue_change": -2000000,
+            "subscriber_change": -3000,
+            "health_score_change": -12,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero publicly defended the machine after the Bloomberg expose, saying it ensured consistent pressure and packet safety — users and press were unconvinced"
+        },
+        {
+          "id": "b",
+          "text": "Drop the machine price to $99 immediately — remove the sticker shock, bet on packets",
+          "short_label": "Price cut to $99",
+          "outcome_label": "RISKY",
+          "consequence_story": "You slash the machine to $99. The internet loves the pivot. Sales recover partially — at $99, the machine is an impulse buy, not a $400 commitment. More machines in more kitchens means more potential packet subscribers. But every machine sold at $99 loses $301 in manufacturing cost. Your bet is now entirely on packet subscription revenue to pay back that loss — and you need each customer to stick around for years.",
+          "plain_english_explanation": "Cutting the machine to $99 increases units sold but creates a $301 loss on every unit. Each machine is now a $301 investment in future packet revenue. Each machine sold at $99 now has a contribution margin of negative $301 — meaning every unit sold actively drains cash instead of contributing to overhead — meaning every new customer now costs you more than before, not less.",
+          "concept_explained": "Dramatically cutting price to drive volume only works when the revenue stream on the back end has high enough contribution margin to recover the upfront loss. Juicero's packets had thin margins — too thin to pay back a $301 hardware loss per customer within any reasonable timeframe.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 600000,
+            "subscriber_change": 2500,
+            "health_score_change": 6,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Announce Juicero 2.0 — a machine with features hand-squeezing genuinely can't replicate",
+          "short_label": "Announce v2.0",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You announce a next-generation machine with WiFi analytics, personalized juice programs, and a subscription app. Engineering puts the timeline at 10 months. The press reception is cautious. 'Sounds promising, but the original machine also sounded promising' is the consensus. Sales stay depressed while customers wait for version 2 — or cancel entirely rather than wait.",
+          "plain_english_explanation": "Announcing a future product buys time but doesn't fix the current unit economics. During the 10-month gap, you're still selling (or not selling) the same machine with the same broken margins. Future products don't contribute margin today.",
+          "concept_explained": "Contribution margin is about what your current product earns right now. A product with zero or negative contribution margin during a sales crisis can't be rescued by announcing a future product — the overhead clock keeps ticking while the future product is being built.",
+          "financial_impact": {
+            "cash_change": -2000000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": -1000000,
+            "subscriber_change": -1000,
+            "health_score_change": -2,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Pivot to packets-only subscription — stop selling the machine entirely",
+          "short_label": "Kill the machine",
+          "outcome_label": "SMART",
+          "consequence_story": "You kill the machine. No more hardware sales. No more manufacturing overhead. No more zero-margin units. You mail existing customers a letter: 'You can squeeze the packets by hand — or keep using your machine. Either way, we're focusing on the best cold-pressed juice subscription available.' Manufacturing contracts get cancelled. The burn rate drops $2M a month. For the first time, the only product you sell has positive contribution margin.",
+          "plain_english_explanation": "Eliminating the zero-margin hardware and focusing on the positive-margin packets increases contribution margin per sale from near-zero to $3-4 per packet. It's not a big margin — but it's positive, and positive contribution margin means each sale actually helps cover overhead instead of adding nothing.",
+          "concept_explained": "When a product line has zero or negative contribution margin, eliminating it can improve overall unit economics even if it reduces revenue. The contribution margin of what remains matters more than total revenue when fixed costs are the constraint.",
+          "financial_impact": {
+            "cash_change": -1000000,
+            "monthly_burn_change": -2000000,
+            "monthly_revenue_change": -400000,
+            "subscriber_change": -500,
+            "health_score_change": 7,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Contribution margin is what each sale contributes toward covering fixed costs after variable costs are paid. A product with zero contribution margin during a sales crisis means every employee, every server, and every light in the office is paid for by nothing — and the faster the clock ticks, the worse it gets."
+    },
+    {
+      "id": "d6",
+      "decision_number": 6,
+      "situation": "May 2017. One month after Bloomberg. Sales are down 70% and staying there. You have 70 employees, expensive manufacturing contracts, and a San Francisco office. The monthly burn hasn't changed. Revenue has collapsed.",
+      "context": "Fixed costs are the expenses that don't change whether you sell 10 machines or 10,000 — salaries, rent, insurance, contracts. When revenue drops 70%, fixed costs become a death sentence unless you cut them fast.",
+      "concept_being_taught": "fixed_costs",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep the full team — this will pass, the company needs its people",
+          "short_label": "Keep everyone",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You keep all 70 employees. The logic: this is a crisis, and crises require all hands on deck. Except 'all hands on deck' still costs $4.5M a month. Revenue is $360K. Your fixed costs are 12 times your revenue. Every month you delay the difficult decision, the gap between what you spend and what you earn gets harder to close.",
+          "plain_english_explanation": "Fixed costs don't bend when sales fall — they stay the same whether you have 10,000 customers or 1,000. When revenue drops 70%, your fixed costs don't drop 70%. They stay exactly where they were. The result: a widening gap between what comes in and what goes out, every single month.",
+          "concept_explained": "Fixed costs are the expenses that don't scale with sales volume — rent, full-time salaries, software subscriptions, and long-term contracts. When revenue collapses, fixed costs become a structural threat: they must be paid regardless of whether the business is generating the revenue to support them.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -500,
+            "health_score_change": -10,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero maintained its full headcount of 70+ employees through and beyond the Bloomberg crisis, keeping fixed costs unchanged as revenue collapsed"
+        },
+        {
+          "id": "b",
+          "text": "Cut 40% of staff — reduce fixed costs to match new revenue reality",
+          "short_label": "Cut 40% of staff",
+          "outcome_label": "SMART",
+          "consequence_story": "You let 28 people go. It's one of the hardest conversations of your professional life. Some of them have been with you since the beginning. The remaining team is shaken. But the monthly burn drops by $2 million. You have more months to fix what's broken. The people who stayed know the company is serious about survival — and sometimes that knowledge is its own kind of motivation.",
+          "plain_english_explanation": "Cutting 40% of staff is painful but directly attacks the fixed cost problem. A $2M monthly burn reduction extends runway by months — time that can be used to rebuild revenue, pivot the product, or find an acquirer. You can always hire back when the business is stable. You can't un-spend the cash you burned avoiding the cut.",
+          "concept_explained": "When fixed costs exceed what revenue can support, reducing fixed costs is often the only lever available. Unlike COGS reduction (which saves money per unit sold), fixed cost reduction saves money every month regardless of sales volume — making it the highest-urgency action when revenue is in freefall.",
+          "financial_impact": {
+            "cash_change": -2000000,
+            "monthly_burn_change": -2000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 9,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Cancel manufacturing contracts — go asset-light, stop producing machines",
+          "short_label": "Cancel contracts",
+          "outcome_label": "BOLD",
+          "consequence_story": "You invoke force majeure on your manufacturing contracts and cancel all future machine production. The penalty fees are $3 million. The engineering team is gutted. But the monthly cost of producing machines that nobody is buying drops by $3M. Six months later, you have a packet subscription business with no hardware — thin margins, but at least you can see the path to positive unit economics.",
+          "plain_english_explanation": "Manufacturing contracts are a form of fixed cost — you pay for production capacity regardless of whether you use it. Canceling them costs $3M upfront (penalties) but saves $3M per month ongoing. The breakeven on cancellation penalties is one month of savings.",
+          "concept_explained": "Fixed costs include contractual obligations that continue regardless of sales — manufacturing agreements, leases, and licensing deals. When those commitments are no longer supported by revenue, the penalty for exiting them is often less than the cost of honoring them.",
+          "financial_impact": {
+            "cash_change": -3000000,
+            "monthly_burn_change": -3000000,
+            "monthly_revenue_change": -1000000,
+            "subscriber_change": -2000,
+            "health_score_change": 4,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Raise an emergency bridge round — buy time while you figure it out",
+          "short_label": "Raise more money",
+          "outcome_label": "RISKY",
+          "consequence_story": "You go back to investors. After three weeks of uncomfortable conversations, you close a $10M bridge round at a punishing valuation. The investors agree — but every one of them knows they're buying time, not fixing the problem. Fixed costs are unchanged. The unit economics are unchanged. You've just bought a few more months of runway to figure out what you should have figured out before the Bloomberg story.",
+          "plain_english_explanation": "Raising more money doesn't reduce your fixed costs — it just means you have more cash to burn through them. If the underlying cost structure isn't fixed, every dollar raised just delays the same cliff. Investors who fund bridge rounds after a crisis know they're taking a risk — and they price it accordingly.",
+          "concept_explained": "Fundraising buys runway but doesn't fix the underlying cost structure. If fixed costs are the problem, raising money is a temporary patch — it extends the runway without changing the trajectory. You need to reach profitability before the new cash runs out, or you're back in the same position.",
+          "financial_impact": {
+            "cash_change": 10000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -4,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Fixed costs don't fall when revenue falls — that's what makes them dangerous. When sales collapse, fixed costs become the clock that decides how long you have before the money runs out. The only way to reset that clock is to cut them."
+    },
+    {
+      "id": "d7",
+      "decision_number": 7,
+      "situation": "Summer 2017. Campbell Soup and two other strategic buyers approach quietly. They want the subscriber list, the brand, and the cold-pressed juice IP — not the machine. The offers are $20-30 million. You raised $120 million. The gap is painful.",
+      "context": "The $120 million you raised is gone. It can't come back regardless of what you decide next. The only question is whether $20-30 million now is worth more than whatever the next six months might produce.",
+      "concept_being_taught": "sunk_cost",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Hold out for a better offer — $20-30M doesn't reflect what this company is worth",
+          "short_label": "Hold out",
+          "outcome_label": "RISKY",
+          "consequence_story": "You tell the buyers the offers don't reflect the company's value. Your investors mostly agree — they're anchored to the $120M they put in. The buyers walk away. Three months later, you're out of cash and back on the phone with the same buyers — except now your subscriber base has shrunk, your brand is damaged, and the offers have dropped below $10M.",
+          "plain_english_explanation": "The $120 million you raised is called a sunk cost — it's spent and can't be recovered, no matter what you do next. Letting it influence your decision is the sunk cost fallacy. A $25M offer on a company that raised $120M feels like a 79% loss — but compared to a $0 bankruptcy, it's $25M. The comparison that matters is not to what you spent, but to what you'll get if you say no.",
+          "concept_explained": "Sunk cost fallacy: making decisions based on what you've already spent rather than what the future holds. The $120M raised is gone either way. The relevant comparison is $25M from a sale now vs. the actual expected value of the next 6 months — not vs. the original $120M investment.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -1000,
+            "health_score_change": -8,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero declined acquisition offers in summer 2017, holding out for a valuation that never materialized before shutting down with almost nothing returned to investors"
+        },
+        {
+          "id": "b",
+          "text": "Accept Campbell Soup's $28M offer — take the deal, protect what's left",
+          "short_label": "Accept $28M",
+          "outcome_label": "SMART",
+          "consequence_story": "You take the deal. The investors who put in $120 million get back $28 million — 23 cents on the dollar. The call to break the news is the hardest one you'll ever make. But the subscribers transfer to Campbell's wellness brand. The IP lives on. Your employees get severance. And six months later, when the company that said no to your deal shut down with nothing, your investors quietly acknowledge you made the right call.",
+          "plain_english_explanation": "Taking $28M when you've already burned through nearly all of the $120M raised — means accepting a painful loss. But the sunk cost is already spent. The $28M is real money that returns something to investors. The alternative isn't recovering the $120M — it's getting zero.",
+          "concept_explained": "Avoiding sunk cost fallacy means evaluating options based only on future outcomes. $28M accepted is better than $0 from bankruptcy, regardless of what was invested before. The past investment is not a valid benchmark for this decision.",
+          "financial_impact": {
+            "cash_change": 28000000,
+            "monthly_burn_change": -4000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 1000,
+            "health_score_change": 9,
+            "runway_change": 5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Sell manufacturing assets and IP separately — maximize recovery",
+          "short_label": "Asset sale",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You engage an advisor to sell the assets piece by piece: manufacturing equipment, the packet supply chain, the subscriber list, the brand trademarks. Over three months, you assemble $8M in proceeds. The process is slow, painful, and messy — and while it's happening, subscribers churn and the brand deteriorates further. The $8M is less than a single acquisition offer, and it took three months longer to execute.",
+          "plain_english_explanation": "Asset sales realize cash from individual components of a business but rarely add up to more than a full acquisition offer. The process also takes time during which the business continues to burn cash and the assets depreciate. Sometimes the whole is worth more than the sum of the parts.",
+          "concept_explained": "When evaluating an acquisition vs. asset liquidation, compare not just the headline numbers but the timeline. An asset sale may theoretically recover more — but if it takes longer and the business keeps burning during the process, the net recovery can be less than a quick sale of the whole company.",
+          "financial_impact": {
+            "cash_change": 8000000,
+            "monthly_burn_change": -1500000,
+            "monthly_revenue_change": -500000,
+            "subscriber_change": -500,
+            "health_score_change": 3,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Accept a minority stake from Campbell Soup — keep the company alive with a strategic partner",
+          "short_label": "Strategic equity",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Campbell Soup takes a 25% stake for $5M. You stay independent, sort of. Campbell provides distribution contacts and food industry expertise. But the core unit economics problem is unchanged, and Campbell's patience runs out after 90 days when subscriber numbers keep falling. They decline to invest more. You're back to the same cliff, with less time and a complicated cap table.",
+          "plain_english_explanation": "A minority strategic investment buys time and connections but doesn't fix the business. If the unit economics are broken, a strategic partner who won't fix that — just observe it — delays the inevitable without changing the outcome.",
+          "concept_explained": "Strategic investments from partners create optionality but require the underlying business to be fixable. When unit economics are fundamentally broken, bringing in a partner who won't directly address the cost structure doesn't change the trajectory — it just adds another stakeholder to a declining situation.",
+          "financial_impact": {
+            "cash_change": 5000000,
+            "monthly_burn_change": -500000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 500,
+            "health_score_change": 2,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Sunk cost fallacy is comparing your future options to what you already spent, instead of comparing them to each other. The $120M raised is gone regardless. The real question is whether $25M now beats $0 in six months — and the honest answer is yes."
+    },
+    {
+      "id": "d8",
+      "decision_number": 8,
+      "situation": "August 2017. Five million dollars left. About five weeks of runway. No acquisition offers on the table. Twelve thousand juice packet subscribers who are worth something — but not to a company that can't afford to serve them.",
+      "context": "The unit economics never worked. Zero gross margin on hardware, thin margin on packets, CAC that exceeded LTV from day one. Runway is the only question left: what is the best possible use of the last $5 million?",
+      "concept_being_taught": "runway",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Spend the $5M on a subscriber push — maybe growth unlocks the unit economics",
+          "short_label": "Spend on growth",
+          "outcome_label": "RISKY",
+          "consequence_story": "You authorize one last growth campaign. Every remaining dollar goes into Facebook ads, influencer deals, and a price cut promotion. You add 2,000 subscribers in six weeks. Then the cash runs out and the servers go dark. You added 2,000 subscribers to a business where every subscriber costs you more to acquire than they ever pay back. You spent your last $5M making the loss bigger.",
+          "plain_english_explanation": "When unit economics are broken, adding more customers doesn't fix them — it amplifies the loss. If every customer costs more to acquire than they generate in LTV, spending $5M to acquire more customers just multiplies the problem. Runway spent on growth only makes sense when the unit economics are positive.",
+          "concept_explained": "Runway is only productive if you're using it to fix what's broken. Spending runway on customer acquisition when CAC exceeds LTV doesn't create a path to profitability — it accelerates spending in the direction that was already killing the company.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 2000,
+            "health_score_change": -25,
+            "runway_change": -5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "b",
+          "text": "Emergency pivot — kill hardware entirely, become a packets-only subscription app",
+          "short_label": "Emergency pivot",
+          "outcome_label": "RISKY",
+          "consequence_story": "You announce the pivot. Hardware is dead. Juicero is now a cold-pressed juice subscription service. You hire a software team to build an ordering app. The $2M development cost leaves $3M in the bank. The remaining engineering work takes 4 months. You run out of money in month 2. The pivot was the right strategic idea executed two years too late, on $5M of runway that couldn't sustain it.",
+          "plain_english_explanation": "A pivot can be the right answer, but it requires enough runway to execute. With 5 weeks of cash remaining, a 4-month software build isn't viable. Runway constrains your strategic options — the right pivot executed too late is just a different kind of failure.",
+          "concept_explained": "Runway determines what strategies are available to you. A fundamentally correct pivot that requires more time than you have left is not a viable strategy. Always match the scope of your strategic response to the runway available to execute it.",
+          "financial_impact": {
+            "cash_change": -2000000,
+            "monthly_burn_change": -2000000,
+            "monthly_revenue_change": -300000,
+            "subscriber_change": -3000,
+            "health_score_change": -8,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Shut down now — sell the subscriber list and return what little remains",
+          "short_label": "Shut down",
+          "outcome_label": "SMART",
+          "consequence_story": "You call the investors. The conversation is brief. A juice delivery company buys the subscriber list for $1.2 million. The rest goes to vendor payments and employee severance. Almost nothing reaches the investors. The $120 million is gone. But the 70 remaining employees get a check, the subscribers get a soft landing, and you don't spend five more weeks burning cash on a company with no viable path. Sometimes the right call is the one nobody wanted to make.",
+          "plain_english_explanation": "When the unit economics are broken and there's no viable action that changes the outcome within your remaining runway, the best use of runway is an orderly shutdown. Spending the last $5M on failed growth or an impossible pivot returns nothing. A controlled wind-down returns something — even if it's small.",
+          "concept_explained": "Runway is most valuable when it can change the outcome. When no action available to you within the remaining runway changes the trajectory of broken unit economics, the highest-value use of that runway is protecting stakeholders through an orderly close.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": -4500000,
+            "monthly_revenue_change": -120000,
+            "subscriber_change": -12000,
+            "health_score_change": 5,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "This is the ONE good decision Juicero made — shutting down in September 2017 and attempting to return what little remained rather than burning the last $5M on a doomed recovery"
+        },
+        {
+          "id": "d",
+          "text": "Fight to zero — call every potential acquirer one more time",
+          "short_label": "Fight to zero",
+          "outcome_label": "BOLD",
+          "consequence_story": "You spend four weeks calling every strategic buyer you've ever met. Campbell Soup doesn't pick up. The food delivery companies are interested but need 60 days for due diligence. You run out of cash on day 35. The servers go dark mid-negotiation. The acquirers who were 25 days from signing a letter of intent walk away. There are no last-minute saves when the power goes out.",
+          "plain_english_explanation": "Acquisition processes take time — more time than 5 weeks of runway allows. Fighting to zero by running out of cash mid-process doesn't produce a better outcome than shutting down early; it produces a worse one, because you can't close a deal when you can't make payroll.",
+          "concept_explained": "Runway constraints affect not just your strategy but your counterparties' confidence. An acquirer who knows you have 3 weeks of cash will negotiate differently — and may walk away rather than rush a deal. Having runway buys negotiating leverage; having none removes it entirely.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 100000,
+            "subscriber_change": 500,
+            "health_score_change": -18,
+            "runway_change": -5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "c",
+      "learning_moment": "Runway is only valuable if you're using it to change the outcome. When the unit economics are broken and no available action fixes them within your remaining cash, the best use of runway is protecting what's left — not burning it on the same losing bet."
+    }
+  ],
+  "endings": {
+    "bankrupt": {
+      "trigger_condition": "cash <= 0",
+      "story": "The cash is gone. Payroll bounces. The servers go dark. Juicero is dead — not because the product was poorly made, but because every unit sold was a transaction that made the company poorer. Beautiful hardware with broken unit economics is still broken unit economics.",
+      "epitaph": "Juicero raised $120 million and returned almost none of it. Every machine sold at break-even, every over-priced packet, every $400 DTC customer acquisition made the math slightly worse. You followed the same path.",
+      "lesson": "Unit economics don't fix themselves with scale. If every unit sold loses money, more units sold just means more losses."
+    },
+    "saved": {
+      "trigger_condition": "health_score >= 60 AND runway_months >= 3 after decision 8",
+      "story": "You fixed what the real Juicero team never could — the math. By pricing hardware for gross margin, cutting COGS, choosing the right distribution channel, and locking in customer lifetime value, you built a business where each unit sold made the company stronger instead of weaker. The company survives.",
+      "lesson": "Unit economics are fixable — but only if you're willing to change the price, the cost, or the customer relationship. You did all three."
+    },
+    "struggling": {
+      "trigger_condition": "alive but health_score < 60",
+      "story": "You survived — barely. Some of the unit economics got better. Some didn't. The company is still alive but the foundation is fragile.",
+      "lesson": "You improved the math without fully solving it. A business with marginal unit economics can survive — but it can't grow without eventually collapsing under its own weight."
+    }
+  },
+  "real_outcome": "Juicero shut down in September 2017, approximately 16 months after commercial launch. Bloomberg's April 2017 expose showed juice packets could be squeezed by hand, destroying the machine's value proposition. The company returned almost nothing of its $120 million in investor capital. Its fatal flaw was visible from day one: hardware with zero gross margin, thin packet margins, and customer acquisition costs that exceeded lifetime value. The unit economics never worked, and no amount of funding could change that math.",
+  "concepts_taught": [
+    "gross_margin",
+    "cogs",
+    "customer_acquisition_cost",
+    "unit_economics",
+    "contribution_margin",
+    "fixed_costs",
+    "sunk_cost",
+    "runway"
+  ],
+  "what_you_learned_summary": "Gross margin is the money left after subtracting manufacturing cost from your sale price — and a product with zero gross margin contributes nothing toward running the business, no matter how many units you sell. COGS reduction is the highest-leverage action in hardware: every dollar cut from manufacturing cost improves the economics of every future unit permanently. Customer Acquisition Cost must be compared to Lifetime Value — when CAC exceeds LTV, every customer acquired makes the business poorer, and growth accelerates the loss instead of solving it. Contribution margin tells you whether each sale helps cover overhead or simply adds noise; fixed costs become fatal when revenue collapses but expenses don't. Sunk cost fallacy is comparing your options to what you already spent rather than to each other — the money is gone either way, and the only question is what the future produces. Runway is time, but only productive time if you're using it to fix the underlying problem."
+}

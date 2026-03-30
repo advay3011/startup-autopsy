@@ -1,0 +1,763 @@
+{
+  "id": "juicero_market_validation",
+  "company": "Juicero",
+  "concept": "Market Validation",
+  "concept_description": "Raising nine figures doesn't prove anyone will pay for the product you're about to mass-produce.",
+  "concept_analogy": "Market validation is asking 'will strangers pay real money for this?' before you pour concrete on the factory floor. If you only ask friends and investors, you get applause — not the truth.",
+  "industry": "Hardware/Consumer Product",
+  "emoji": "🥤",
+  "tagline": "$120M for a juice press nobody needed",
+  "difficulty": "beginner",
+  "opening_story": "It's 2013. You have a beautiful prototype: a $400 Wi‑Fi-connected cold-press that only works with proprietary organic juice packs. Your slide deck says 'the Keurig of juice.' The money is lining up — over $120 million if you close the next round. The uncomfortable question nobody wants on the cover of the deck is simpler: before we burn years and fortune on factories and silicon, has a single stranger proven they care enough to pay — not cheer?",
+  "initial_financials": {
+    "cash": 82000000,
+    "monthly_burn": 5200000,
+    "monthly_revenue": 180000,
+    "subscribers": 350,
+    "health_score": 58,
+    "runway_months": 16,
+    "health_breakdown": {
+      "burn_rate_health": 48,
+      "revenue_growth": 22,
+      "unit_economics": 40,
+      "cash_flow": 50,
+      "investor_confidence": 78
+    }
+  },
+  "decisions": [
+    {
+      "id": "d1",
+      "decision_number": 1,
+      "situation": "Before you commit to custom tooling and a supply chain, your product lead asks for $400K to run a three-month test: sell juice subscriptions with borrowed commercial cold-presses — no connected hardware yet.",
+      "context": "Market validation means proving demand with money and behavior, not slides. A cheap test could say 'no' early. Investors want to see the full vision moving fast.",
+      "concept_being_taught": "market_validation",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Skip the fake juice test — we're building the real connected press. Speed is the moat.",
+          "short_label": "Skip validation",
+          "outcome_label": "RISKY",
+          "consequence_story": "You greenlight factory tooling while real demand is still a hypothesis dressed in industrial design. Capital floods into steel and firmware before a stranger has ever pulled out a credit card for the actual experience.",
+          "plain_english_explanation": "You saved $400K today but bought uncertainty with interest: you're spending millions on a product story nobody paid to prove. That's skipping market validation — confusing investor excitement with customer pull.",
+          "concept_explained": "Market validation is evidence that people who don't owe you favors will pay for the problem you're solving, under terms close to what you'll actually ship.",
+          "financial_impact": {
+            "cash_change": -8000000,
+            "monthly_burn_change": 800000,
+            "monthly_revenue_change": 50000,
+            "subscriber_change": 40,
+            "health_score_change": -6,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero raised huge capital and built premium connected hardware before demand had been proven at meaningful scale."
+        },
+        {
+          "id": "b",
+          "text": "Run the subscription test for 90 days — only scale hardware if strangers renew and refer.",
+          "short_label": "Demand test first",
+          "outcome_label": "SMART",
+          "consequence_story": "You launch ugly beta juice routes in two cities. Churn is visible by week six. You learn what 'convenience' actually means — and what price makes people ghost. The data isn't glamorous; it's useful.",
+          "plain_english_explanation": "You spent $400K and three months to buy truth. Renewal and referrals tell you if the problem is real. That's cheap compared to nine figures of sunk tooling for a guess.",
+          "concept_explained": "Validation trades ego for information: you test whether the market wants the job done, before you marry a specific expensive solution.",
+          "financial_impact": {
+            "cash_change": -400000,
+            "monthly_burn_change": 100000,
+            "monthly_revenue_change": 120000,
+            "subscriber_change": 180,
+            "health_score_change": 5,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Commission a brand survey and 12 focus groups — no one pays yet, but we'll have quotes for the board.",
+          "short_label": "Focus groups only",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You get glowing qualitative feedback. People love the idea of wellness. Nobody has to swipe a card. Your deck gets prettier while your hardest question stays unanswered.",
+          "plain_english_explanation": "Focus groups measure opinions, not wallets. 'I'd buy that' is free; losing a customer who actually paid is data. You bought comfort, not validation.",
+          "concept_explained": "Customer feedback without purchase risk is weak signal. Market validation needs behavior under real sacrifice — money, time, or switching cost.",
+          "financial_impact": {
+            "cash_change": -250000,
+            "monthly_burn_change": 200000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Raise first, test later — a bigger balance sheet makes every mistake recoverable.",
+          "short_label": "Raise then learn",
+          "outcome_label": "BOLD",
+          "consequence_story": "You close capital on vision alone. The bank account looks invincible. The product risk didn't shrink — you just insulated yourself from hearing 'no' loudly enough, early enough.",
+          "plain_english_explanation": "More cash can hide missing validation: you can keep building while the market stays hypothetical. Money is runway, not proof anyone wants the juice press.",
+          "concept_explained": "Fundraising validates investor belief, not product-market fit. Confusing the two is how teams scale mistakes.",
+          "financial_impact": {
+            "cash_change": 15000000,
+            "monthly_burn_change": 1200000,
+            "monthly_revenue_change": 30000,
+            "subscriber_change": 20,
+            "health_score_change": -4,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "If people haven't paid under conditions similar to launch, you don't have market validation yet — you have a story that rich people liked."
+    },
+    {
+      "id": "d2",
+      "decision_number": 2,
+      "situation": "Engineering proposes two paths: ship a 'minimal' press in nine months — plastic housing, fewer sensors — or hold eighteen months for the anodized, app-connected flagship you showed investors.",
+      "context": "A true MVP tests whether the core job-to-be-done is worth paying for. A flagship proves you can execute art — not that anyone needed art.",
+      "concept_being_taught": "mvp",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Hold for the flagship. Half measures would dilute the brand we're pricing at luxury.",
+          "short_label": "Wait for flagship",
+          "outcome_label": "RISKY",
+          "consequence_story": "Eighteen months vanish into tolerances and firmware. Competitors sell simpler juice solutions. Your launch is gorgeous — and late to answer the only question that mattered: who cares at this price?",
+          "plain_english_explanation": "You optimized polish before proof. An MVP isn't a worse product for spite — it's the smallest thing that tests your riskiest assumption. Here, the risk was need, not anodized aluminum.",
+          "concept_explained": "Minimum viable product means the smallest offering that falsifies your biggest assumption cheaply — usually demand, not cosmetics.",
+          "financial_impact": {
+            "cash_change": -12000000,
+            "monthly_burn_change": 600000,
+            "monthly_revenue_change": 40000,
+            "subscriber_change": 60,
+            "health_score_change": -7,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero pursued a premium connected device with long development before a simple value prop was proven in the wild."
+        },
+        {
+          "id": "b",
+          "text": "Ship the stripped MVP on the nine-month path — same packs, simpler chassis, learn from real kitchens.",
+          "short_label": "Ship MVP fast",
+          "outcome_label": "SMART",
+          "consequence_story": "Early adopters are loud. Some love it; some ask why Wi‑Fi matters. You accumulate repair data and return reasons — boring gold. The roadmap changes because reality spoke.",
+          "plain_english_explanation": "You traded showroom perfection for field truth. If the MVP flops, you fail small. If it works, you earn the right to add complexity.",
+          "concept_explained": "An MVP front-loads learning: you release something 'embarrassing' on purpose so embarrassment is cheap, not fatal.",
+          "financial_impact": {
+            "cash_change": -3500000,
+            "monthly_burn_change": 200000,
+            "monthly_revenue_change": 280000,
+            "subscriber_change": 320,
+            "health_score_change": 6,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "White-label an existing juicer with our packets only — fastest hardware, weakest story.",
+          "short_label": "White-label hack",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You learn packet economics faster than industrial design. Press reviews yawn. Still, you see repeat purchase data your flagship might never have reached in time.",
+          "plain_english_explanation": "You accepted a weaker brand moment to isolate what you're really selling — recurring packs vs. gadget lust. That's pragmatic validation, not vanity.",
+          "concept_explained": "MVPs can be cobbled: the goal is learning speed per dollar, not Instagram wow factor.",
+          "financial_impact": {
+            "cash_change": -1800000,
+            "monthly_burn_change": 150000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 240,
+            "health_score_change": 3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Announce the flagship now for pre-order; build while cash comes in.",
+          "short_label": "Pre-order the dream",
+          "outcome_label": "BOLD",
+          "consequence_story": "Pre-orders spike from enthusiasts, then support tickets spike from expectations you haven't met. You're managing optics and supply chain at once.",
+          "plain_english_explanation": "Pre-orders are validation only if refunds stay tiny and delivery stays honest. Otherwise you've monetized hype, not fit.",
+          "concept_explained": "Customer commitments help — but refunds, chargebacks, and angry social posts are negative signal your dashboard must count.",
+          "financial_impact": {
+            "cash_change": 6000000,
+            "monthly_burn_change": 900000,
+            "monthly_revenue_change": 350000,
+            "subscriber_change": 500,
+            "health_score_change": -5,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "A flagship launch without an MVP loop confuses craftsmanship with evidence. Proof is what strangers do after they pay — not what they clap for in a demo room."
+    },
+    {
+      "id": "d3",
+      "decision_number": 3,
+      "situation": "Beta users are blunt in forums: '$400 for a bag squeezer?' 'My $30 citrus press doesn't need Wi‑Fi.' Your community manager wants a changelog that acknowledges price and value anxiety.",
+      "context": "Early negative feedback is either noise — or cheap data about product-market fit. Ignoring it doesn't make skepticism disappear.",
+      "concept_being_taught": "customer_feedback",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Stay on message: they don't understand the engineering. Double down on luxury positioning.",
+          "short_label": "Dismiss critics",
+          "outcome_label": "RISKY",
+          "consequence_story": "You treat complaints as a taste problem, not an information problem. Threads fill with teardown photos. The gap between story and lived value widens in public.",
+          "plain_english_explanation": "When paying users say the value isn't there, that's customer feedback about fit — not 'haters.' Ignoring it doesn't protect the brand; it blinds you.",
+          "concept_explained": "Customer feedback is structured listening to behavior and language from people with skin in the game — especially critics who still tried the product.",
+          "financial_impact": {
+            "cash_change": -500000,
+            "monthly_burn_change": 300000,
+            "monthly_revenue_change": -80000,
+            "subscriber_change": -120,
+            "health_score_change": -8,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Reports suggest user concerns on price and value were often framed as misunderstanding rather than fuel for product or pricing fixes."
+        },
+        {
+          "id": "b",
+          "text": "Publish a transparent comparison page — what the press does, what requires the machine, and where we're overpriced.",
+          "short_label": "Acknowledge loudly",
+          "outcome_label": "SMART",
+          "consequence_story": "Some prospects bail — good. Others buy because they trust you. Product gets a mandate to simplify onboarding and justify Wi‑Fi with measurable outcomes.",
+          "plain_english_explanation": "Honest marketing is a validation instrument: it pushes away bad fits and pulls in people whose problem you truly solve. Silence trains nobody.",
+          "concept_explained": "Integrating harsh feedback tightens product-market fit because it forces you to match claims to lived value.",
+          "financial_impact": {
+            "cash_change": -200000,
+            "monthly_burn_change": 50000,
+            "monthly_revenue_change": 150000,
+            "subscriber_change": 200,
+            "health_score_change": 7,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Offer a silent partial refund to noisy reviewers under NDA — keep the forums clean.",
+          "short_label": "Quiet refunds",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Threads calm short-term. You learn less because complaints go private. Word still leaks; trust erodes in DM screenshots.",
+          "plain_english_explanation": "You bought quiet, not clarity. Customer feedback hidden under NDA keeps your internal metrics pretty and your learning curve flat.",
+          "concept_explained": "Public, structured feedback is a sensor. Muting sensors doesn't fix the underlying bug — it hides the temperature while the fever rises.",
+          "financial_impact": {
+            "cash_change": -900000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": -40000,
+            "subscriber_change": -80,
+            "health_score_change": -4,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Pivot messaging to 'clinical nutrition for athletes' — new persona, same hardware.",
+          "short_label": "New persona",
+          "outcome_label": "BOLD",
+          "consequence_story": "The athlete story perks up partnerships. It also postpones the hard question: is the machine materially better than hands for anyone? You're retargeting, not necessarily validating.",
+          "plain_english_explanation": "Persona shifts can be productive pivots — or procrastination. If the core claim is still weak, new lipstick doesn't validate the underlying market.",
+          "concept_explained": "Product-market fit follows the segment where repeat purchase and willingness to pay converge. A new persona must prove that with fresh data, not vibes.",
+          "financial_impact": {
+            "cash_change": -1200000,
+            "monthly_burn_change": 400000,
+            "monthly_revenue_change": 90000,
+            "subscriber_change": 100,
+            "health_score_change": -2,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "If your reflex to criticism is 'they don't get it,' you've turned off one of the cheapest sensors for whether your market is real."
+    },
+    {
+      "id": "d4",
+      "decision_number": 4,
+      "situation": "Operations sends a confidential lab memo: consistent hand pressure often extracts similar yield to the press for standard packets. Legal asks if the website should soften claims about 'requiring' the machine.",
+      "context": "Internal knowledge that weakens your value prop is a product-market fit red flag. Shipping anyway without resolving the claim is borrowing trouble.",
+      "concept_being_taught": "product_market_fit",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Simplify packaging so the press clearly adds torque profiles hands can't replicate — change the SKU, not the adjective.",
+          "short_label": "Fix the product claim",
+          "outcome_label": "SMART",
+          "consequence_story": "Retrofits cost money and pride. When the new packet ships, returns drop and your story matches physics. It's expensive — and honest.",
+          "plain_english_explanation": "Product-market fit includes scientific honesty: if the machine is optional for core use, you're not validating a need — you're validating packaging habits. You paid to make the claim real.",
+          "concept_explained": "Fit means the product's differentiated value is true under normal use — not true only if you squint at marketing.",
+          "financial_impact": {
+            "cash_change": -6500000,
+            "monthly_burn_change": -300000,
+            "monthly_revenue_change": 180000,
+            "subscriber_change": 150,
+            "health_score_change": 8,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "b",
+          "text": "Keep the hardware identical; adjust copy to 'optimized experience' and hope ambiguity holds.",
+          "short_label": "Soften the words",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "The gray language buys a quarter. Teardown channels test hand squeezes anyway. The gap between headline and kitchen reality is now a predictable headline.",
+          "plain_english_explanation": "Vague claims don't fix fit — they delay the confrontation with what customers can verify in thirty seconds with their hands.",
+          "concept_explained": "Product-market fit is tested in the customer's environment. If the environment falsifies your claim, marketing adjectives are kindling.",
+          "financial_impact": {
+            "cash_change": -400000,
+            "monthly_burn_change": 100000,
+            "monthly_revenue_change": -60000,
+            "subscriber_change": -100,
+            "health_score_change": -5,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Bury the memo's consumer implications — leak risk is low if we keep language technical internally.",
+          "short_label": "Keep memo internal",
+          "outcome_label": "RISKY",
+          "consequence_story": "Support reps hear rumors from factory contractors. Morale fractures between teams who know and teams who sell. The truth schedules its own press conference.",
+          "plain_english_explanation": "You treated an integrity problem as a PR shield. Product-market fit needs internal alignment: if sales believes myth and ops knows reality, the market will decide for you — loudly.",
+          "concept_explained": "When internal tests undermine the core promise, continuing to sell the old story isn't iteration — it's accelerating distrust.",
+          "financial_impact": {
+            "cash_change": -200000,
+            "monthly_burn_change": 250000,
+            "monthly_revenue_change": -90000,
+            "subscriber_change": -60,
+            "health_score_change": -9,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Bloomberg's 2017 piece suggested the squeezable-pack issue was knowable; the public firestorm followed perceived gap between story and kitchen reality."
+        },
+        {
+          "id": "d",
+          "text": "Open-source a 'hand-squeeze friendly' packet line at lower margin — admit the behavior, own the use case.",
+          "short_label": "Lean into truth",
+          "outcome_label": "BOLD",
+          "consequence_story": "Headline writers call it a retreat. Finance sees margin move. But credible differentiation finally narrows to what you can prove repeatable.",
+          "plain_english_explanation": "Owning a limitation can validate who you're for: people who want your supply chain and quality, not a magic machine story. Painful? Yes. Murky? Less.",
+          "concept_explained": "Product-market fit sometimes arrives after you stop insisting you're for everyone and start matching promise to mechanism.",
+          "financial_impact": {
+            "cash_change": -3000000,
+            "monthly_burn_change": -500000,
+            "monthly_revenue_change": 220000,
+            "subscriber_change": 400,
+            "health_score_change": 4,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "c",
+      "learning_moment": "If your own lab can falsify the headline benefit, you don't have product-market fit — you have debt that accrues until the customer tries it at home."
+    },
+    {
+      "id": "d5",
+      "decision_number": 5,
+      "situation": "Finance models the accessible market: affluent wellness households who will pay $400 hardware plus ~$8 daily packets is a thin slice of U.S. kitchens — tens of billions in TAM on a spreadsheet shrinks to a tiny sliver in reality once you apply income, habit, and competition.",
+      "context": "Total addressable market fantasies tempt you to scale. A truthful TAM tells you whether venture scale returns are even available.",
+      "concept_being_taught": "tam",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Tell the board the global wellness TAM is hundreds of billions — we'll expand segments later.",
+          "short_label": "Pitch mega-TAM",
+          "outcome_label": "RISKY",
+          "consequence_story": "The room applauds. Hiring accelerates into a slice that can't absorb it. You're scaling a narrative measured in continents while adoption is measured in zip codes.",
+          "plain_english_explanation": "TAM is not every person who drinks liquid. It's who will pay your price, your frequency, your friction — now. Blurring that validates fund-raising slides, not markets.",
+          "concept_explained": "Total addressable market is the revenue opportunity if you win realistically reachable customers — not if Earth is thirsty.",
+          "financial_impact": {
+            "cash_change": -3000000,
+            "monthly_burn_change": 1200000,
+            "monthly_revenue_change": 60000,
+            "subscriber_change": 70,
+            "health_score_change": -8,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero targeted a premium niche but operated with ambitions that implied mass-market reach."
+        },
+        {
+          "id": "b",
+          "text": "Rebuild the model bottoms-up: households at income X, juice habit Y, willingness to pay Z — cap spend to that cone.",
+          "short_label": "Truthful TAM math",
+          "outcome_label": "SMART",
+          "consequence_story": "The chart is smaller — and actionable. Marketing stops pretending everyone is the customer. You pick channels where rich juicers actually are.",
+          "plain_english_explanation": "Honest TAM forces validation discipline: if the reachable market is small, your strategy must extract higher LTV or lower costs — or admit this isn't venture-shaped.",
+          "concept_explained": "Bottoms-up TAM multiplies believable segments instead of top-down wishful billions — it's a market validation tool, not a pep rally.",
+          "financial_impact": {
+            "cash_change": -800000,
+            "monthly_burn_change": -400000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 260,
+            "health_score_change": 7,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Acquire a small smoothie chain to force distribution — turn TAM into 'foot traffic' overnight.",
+          "short_label": "Buy distribution",
+          "outcome_label": "BOLD",
+          "consequence_story": "Same-store trials spike. Integration costs and cultural mismatch eat forecasts. You're widening surface area before core home fit is solid.",
+          "plain_english_explanation": "Buying channels can grow numerator and denominator of risk at once. Without validated home use, retail theatrics can mask weak repeat rates.",
+          "concept_explained": "Channel expansion doesn't increase true TAM — it changes access cost. Validate repeat behavior where you intend lifetime value to live.",
+          "financial_impact": {
+            "cash_change": -14000000,
+            "monthly_burn_change": 800000,
+            "monthly_revenue_change": 450000,
+            "subscriber_change": 120,
+            "health_score_change": -4,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Freeze hires and marketing for one quarter — only ship experiments that reduce CAC inside the true slice.",
+          "short_label": "Freeze and learn",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Growth flatlines on purpose. You learn CAC payback inside a narrow segment. Investors grumble — but you stop lighting money where households won't follow.",
+          "plain_english_explanation": "Sometimes validating the market means refusing to scale acquisition until unit economics work in the only audience that could love you.",
+          "concept_explained": "Conserving burn to focus on measurable payback in a narrow TAM is validation economics — grow after the math, not before.",
+          "financial_impact": {
+            "cash_change": 500000,
+            "monthly_burn_change": -800000,
+            "monthly_revenue_change": 80000,
+            "subscriber_change": 40,
+            "health_score_change": 4,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "A TAM that requires every affluent person on Earth to behave the same isn't validation — it's a fairy tale with a term sheet."
+    },
+    {
+      "id": "d6",
+      "decision_number": 6,
+      "situation": "Retail partners want movement: at $400, velocity is weak. Your margin model assumes premium ASP. Cutting price expands reachable households — but screams 'gadget in trouble' if mishandled.",
+      "context": "Price is a market-validation lever: who can say yes? But price cuts without a clarified value story can accelerate a death spiral.",
+      "concept_being_taught": "pricing",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Hold $400 through holiday — we'll protect perceived luxury even if units lag.",
+          "short_label": "Protect premium",
+          "outcome_label": "RISKY",
+          "consequence_story": "Inventory sits. Retailers slash your facings. Premium without velocity becomes a museum exhibit — beautiful, unmoving.",
+          "plain_english_explanation": "Price guards ego, not fit. If willingness to pay at $400 isn't there, holding price doesn't validate luxury — it validates stagnation.",
+          "concept_explained": "Pricing tests market boundaries. When boundary feedback says no, repeating the same tag is denial, not discipline.",
+          "financial_impact": {
+            "cash_change": -2000000,
+            "monthly_burn_change": 400000,
+            "monthly_revenue_change": -120000,
+            "subscriber_change": -200,
+            "health_score_change": -7,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero long sold at a very high hardware price before later cuts; the window where price could have expanded the market had largely passed."
+        },
+        {
+          "id": "b",
+          "text": "Cut hardware to $199 now, bundle first month of packets — optimize for installed base.",
+          "short_label": "Cut to grow base",
+          "outcome_label": "SMART",
+          "consequence_story": "Margins scream on the device, but installed base more than doubles. Packet revenue starts to mean something. The story shifts to consumables — closer to validated recurring revenue.",
+          "plain_english_explanation": "A lower entry price is a market experiment: if the consumable is the real business, hardware can be tuition. You traded short margin for evidence of repeat behavior.",
+          "concept_explained": "Pricing for validation prioritizes learning and repeat purchase over hardware vanity margin — if the ecosystem economics truly work.",
+          "financial_impact": {
+            "cash_change": -4500000,
+            "monthly_burn_change": 200000,
+            "monthly_revenue_change": 420000,
+            "subscriber_change": 900,
+            "health_score_change": 6,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Keep $400 MSRP but perpetual $299 'friends & family' codes — quiet discount, loud list price.",
+          "short_label": "Shadow discounting",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Velocity bumps slightly; brand arithmetic gets fuzzy. Analysts and early buyers notice the permanent sale. Trust chips.",
+          "plain_english_explanation": "Training customers to never pay list isn't validation — it teaches the market your price isn't real. You get a bump without clarity.",
+          "concept_explained": "Clean pricing experiments change cohort behavior predictably; muddy discounts confuse what segment actually validated.",
+          "financial_impact": {
+            "cash_change": -1200000,
+            "monthly_burn_change": 100000,
+            "monthly_revenue_change": 150000,
+            "subscriber_change": 350,
+            "health_score_change": -2,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Give the press away — charge only packets at cost-plus to prove repeat consumption.",
+          "short_label": "Razor-free trial",
+          "outcome_label": "BOLD",
+          "consequence_story": "Demand spikes; logistics buckle. You learn packet love — or hate — fast. Capital intensity jumps before you know if repeats hold.",
+          "plain_english_explanation": "Extreme pricing can validate consumables, but if logistics costs eat you, you've validated operations stress, not lifetime value.",
+          "concept_explained": "Radical price moves are valid experiments only if you instrument repeat rate, margin after subsidy, and ops capacity.",
+          "financial_impact": {
+            "cash_change": -8000000,
+            "monthly_burn_change": 1500000,
+            "monthly_revenue_change": 550000,
+            "subscriber_change": 1800,
+            "health_score_change": -3,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Price isn't just margin — it's a question you're asking the market. If the answer is silence, refusing to listen doesn't make you premium; it makes you stuck."
+    },
+    {
+      "id": "d7",
+      "decision_number": 7,
+      "situation": "Bloomberg publishes a video: your juice packs can be squeezed by hand with similar results. Within hours it's not a gadget story — it's a symbol of Silicon Valley excess. Your comms chief drafts two responses: technical defense vs. candid acknowledgment plus policy for unhappy buyers.",
+      "context": "Crisis communications either rebuild trust with facts people can verify — or torch credibility defending a castle of nuance.",
+      "concept_being_taught": "brand_trust",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Issue a dense technical blog: torque curves, food safety, RFID freshness — prove the machine matters.",
+          "short_label": "Technical defense",
+          "outcome_label": "RISKY",
+          "consequence_story": "Engineers cheer. The internet skims the headline. Memes win the day. Your nuance reads as spin because the visceral demo already taught the lesson.",
+          "plain_english_explanation": "When common sense contradicts you on camera, molecular detail doesn't re-validate the market — it sounds like you're arguing with a kitchen. Trust drops when people feel managed, not met.",
+          "concept_explained": "Brand trust in validation crises tracks whether you center the customer's test or your vocabulary. Meet people where they tried your product.",
+          "financial_impact": {
+            "cash_change": -1500000,
+            "monthly_burn_change": 200000,
+            "monthly_revenue_change": -450000,
+            "subscriber_change": -1500,
+            "health_score_change": -12,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "After the 2017 Bloomberg story, Juicero publicly defended the device while the simpler demonstration dominated public perception."
+        },
+        {
+          "id": "b",
+          "text": "Lead with: 'We overclaimed convenience. Here's a refund path and a simpler packet SKU.'",
+          "short_label": "Acknowledge + repair",
+          "outcome_label": "SMART",
+          "consequence_story": "Outrage softens into skepticism — workable skepticism. Some leave; some stay for packets honestly framed. Employees can sell without swallowing a fairy tale.",
+          "plain_english_explanation": "You traded face-saving for credibility. In market validation terms, you aligned public promise with what home tests show — rebuilding the sensor between you and reality.",
+          "concept_explained": "Trust is part of fit: if buyers doubt your words more than they doubt competitors' products, your funnel leaks regardless of features.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": -200000,
+            "monthly_revenue_change": 80000,
+            "subscriber_change": -400,
+            "health_score_change": 5,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Go dark on social for 72 hours — let legal and PR align, say nothing publicly.",
+          "short_label": "Silent hold",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "The vacuum fills with jokes and duet videos. Silence reads as confirmation you don't have a plain answer.",
+          "plain_english_explanation": "In a validation crisis, silence doesn't pause judgment — it outsources storytelling to strangers. You're still training the market; just not on your terms.",
+          "concept_explained": "Response latency is a signal. Fast, plain language beats perfect staging when trust is the asset burning fastest.",
+          "financial_impact": {
+            "cash_change": -300000,
+            "monthly_burn_change": 100000,
+            "monthly_revenue_change": -280000,
+            "subscriber_change": -900,
+            "health_score_change": -8,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Counter-program: drop a cheeky ad embracing 'hand squeeze Nation' — joke your way out.",
+          "short_label": "Meme the crisis",
+          "outcome_label": "BOLD",
+          "consequence_story": "Some people laugh. Others read it as disrespect to buyers who paid serious money. Comedy is a narrow bridge over a credibility gorge.",
+          "plain_english_explanation": "Humor can humanize — or insult. If the wound is 'I feel scammed,' wit rarely validates the payment that already happened.",
+          "concept_explained": "Brand recovery has to map to customer emotion: contrition and restitution often beat cleverness for high-ticket hardware regrets.",
+          "financial_impact": {
+            "cash_change": -900000,
+            "monthly_burn_change": 300000,
+            "monthly_revenue_change": -150000,
+            "subscriber_change": -700,
+            "health_score_change": -6,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "When the world runs a five-second kitchen test that beats your whitepaper, technical spin doesn't defend product-market fit — it confirms distance from your customer."
+    },
+    {
+      "id": "d8",
+      "decision_number": 8,
+      "situation": "September 2017. Churn is brutal, capital is guarded, and your brand is a cautionary tale. Advisors present three uses of remaining cash: one last feature sprint, a distressed-sale hunt, or an orderly wind-down that preserves some employee severance and partner goodwill.",
+      "context": "The ultimate market validation is cumulative: the market already voted with refunds, jokes, and empty retail shelves. The financial question is how honestly you accept that tally.",
+      "concept_being_taught": "shutdown_discipline",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "One more hail-mary feature: app-only 'coach mode' to prove daily habit — six-month build.",
+          "short_label": "Build again",
+          "outcome_label": "RISKY",
+          "consequence_story": "Engineers start sprinting into a runway measured in weeks. The market doesn't wait for your roadmap anymore — it already moved on.",
+          "plain_english_explanation": "When cumulative feedback says the core value story failed, new features rarely validate a dead thesis — they spend money proving you're unwilling to read the room.",
+          "concept_explained": "Shutdown discipline is recognizing when additional spend cannot change the outcome — protecting people and trust over sunk-cost pride.",
+          "financial_impact": {
+            "cash_change": -9000000,
+            "monthly_burn_change": 1800000,
+            "monthly_revenue_change": -200000,
+            "subscriber_change": -2000,
+            "health_score_change": -15,
+            "runway_change": -4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "b",
+          "text": "Sell assets in a hurry — accept a scrap bid because any number beats zero optics.",
+          "short_label": "Fire-sale panic",
+          "outcome_label": "BOLD",
+          "consequence_story": "You move inventory for cents on the dollar. Employees learn from Twitter. The story ends messy and fast — less cash preserved than a calmer process could have rescued.",
+          "plain_english_explanation": "Panic sales validate fear, not market reality. When time exists, orderly wind-downs often return more and harm fewer stakeholders than a sprint to zero.",
+          "concept_explained": "Discipline includes sequencing: rescue working capital, communicate clearly, then match asset sales to obligations — random urgency destroys value.",
+          "financial_impact": {
+            "cash_change": -4000000,
+            "monthly_burn_change": -2000000,
+            "monthly_revenue_change": -350000,
+            "subscriber_change": -3000,
+            "health_score_change": -10,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Announce wind-down: stop sales, fulfill obligations, offer refunds where fair, prioritize severance.",
+          "short_label": "Orderly close",
+          "outcome_label": "SMART",
+          "consequence_story": "Headlines still sting — but the obituary includes 'returned some capital' and 'paid people.' Investors lose, but not maximally. Employees don't learn last from a locked door.",
+          "plain_english_explanation": "Markets said no; you listened before vaporizing the last dollars on fantasy. That's shutdown discipline — matching spend to a dead-end's real options.",
+          "concept_explained": "An orderly wind-down is the last validation signal: you stop pretending demand and admit what the cumulative evidence already proved.",
+          "financial_impact": {
+            "cash_change": -12000000,
+            "monthly_burn_change": -4500000,
+            "monthly_revenue_change": -450000,
+            "subscriber_change": -3500,
+            "health_score_change": 6,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Juicero ceased operations in September 2017 after the credibility crisis, offering refunds on the press and winding the business."
+        },
+        {
+          "id": "d",
+          "text": "Lobby investors for a bridge to 'wait out' the meme cycle — belief that brand can rebound unchanged.",
+          "short_label": "Bridge and hope",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You get weeks, not quarters. The meme doesn't fatigue in your favor — purchase intent does. The bridge becomes interest on a thesis the market already rejected.",
+          "plain_english_explanation": "When validation fails at the idea level, time rarely heals without structural change. Bridge financing just finances delayed honesty.",
+          "concept_explained": "Capital can't substitute for pull: if customers won't return, more runway only extends the same negative experiment.",
+          "financial_impact": {
+            "cash_change": 3000000,
+            "monthly_burn_change": 900000,
+            "monthly_revenue_change": -500000,
+            "subscriber_change": -1200,
+            "health_score_change": -12,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "c",
+      "learning_moment": "The market validated the hard way. The last CEO skill is believing it — before the final million dollars mistakes conviction for hope."
+    }
+  ],
+  "endings": {
+    "bankrupt": {
+      "trigger_condition": "cash <= 0",
+      "story": "The accounts hit zero. Payroll stops. The juice packs stop shipping. Juicero becomes a punchline with an insolvency filing instead of a lesson.",
+      "epitaph": "$120 million built a machine the kitchen could replace with two hands. You ignored validation until the market handed it to you for free.",
+      "lesson": "Ignoring who will pay — and for what real job — turns capital into a countdown, not a cushion."
+    },
+    "saved": {
+      "trigger_condition": "health_score >= 60 AND runway_months >= 3 after decision 8",
+      "story": "Barely believable — you threaded the needle. The company limps but lives: smaller, honester, tied to repeat packet revenue you can defend with receipts, not vibes.",
+      "lesson": "You validated early, listened to harsh feedback, sized the market honestly, and priced for truth. Capital followed evidence instead of replacing it."
+    },
+    "struggling": {
+      "trigger_condition": "alive but health_score < 60",
+      "story": "You're still incorporated — technically. Trust is thin, shelves are spotty, investors side-eye every deck update. The market answered; you half-listened.",
+      "lesson": "Partial validation is expensive: you learned some lessons only after the billboard moment. Survival now means humble math, not hero launches."
+    }
+  },
+  "real_outcome": "Juicero raised about $120M on a $400 Wi‑Fi press and proprietary packets. In April 2017 Bloomberg demonstrated packs could often be squeezed by hand, igniting a credibility crisis over how much value the machine added. The company slashed price, then shut down in September 2017 — a high-profile end to scaling hardware before demand and differentiation were truly proved.",
+  "concepts_taught": [
+    "market_validation",
+    "mvp",
+    "customer_feedback",
+    "product_market_fit",
+    "tam",
+    "pricing",
+    "brand_trust",
+    "shutdown_discipline"
+  ],
+  "what_you_learned_summary": "Capital isn't proof the market cares. Validation means strangers paying under real terms, MVPs that falsify arrogance cheaply, feedback you don't explain away, TAM math that fits in a kitchen — not a continent — pricing that expands your real market instead of protecting a story, brand trust that collapses the moment a five-second kitchen test contradicts you, and the courage to wind down when the cumulative answer is no. Juicero's story is what happens when slides win years while kitchens decide in seconds."
+}

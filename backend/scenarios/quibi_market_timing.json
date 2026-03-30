@@ -1,0 +1,763 @@
+{
+  "id": "quibi_market_timing",
+  "company": "Quibi",
+  "concept": "Market Timing",
+  "concept_description": "Is the world ready for your product right now? Launching at the wrong moment is just as fatal as building the wrong thing.",
+  "concept_analogy": "Think of market timing like surfing. You can have the best surfboard ever made — but if you paddle out right into a storm, you wipe out no matter how good you are.",
+  "industry": "Media/Entertainment",
+  "emoji": "📺",
+  "tagline": "Right product. Wrong world.",
+  "difficulty": "beginner",
+  "opening_story": "It's April 6, 2020. You spent three years and $1.35 billion building Quibi — short-form mobile video for people on the go. Commuters. Subway riders. People waiting in line. Today is launch day. There's just one problem: COVID-19 locked down America two weeks ago. Nobody is commuting. Nobody is on the go. Everyone is sitting at home next to a full-size TV — and your app only works on a phone.",
+  "initial_financials": {
+    "cash": 1350000000,
+    "monthly_burn": 90000000,
+    "monthly_revenue": 0,
+    "subscribers": 0,
+    "runway_months": 15,
+    "health_score": 65,
+    "health_breakdown": {
+      "burn_rate_health": 60,
+      "revenue_growth": 10,
+      "unit_economics": 40,
+      "cash_flow": 60,
+      "investor_confidence": 82
+    }
+  },
+  "decisions": [
+    {
+      "id": "d1",
+      "decision_number": 1,
+      "situation": "It's March 23, 2020 — two weeks before your launch date. COVID lockdowns sweep the country overnight. Your entire product was built for commuters who no longer exist.",
+      "context": "You've spent years and a billion dollars building an app for a world that just disappeared. Your launch is 14 days away. Every day you delay costs money — but every day you ignore COVID costs you users.",
+      "concept_being_taught": "market_timing",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Launch as planned on April 6 — the show must go on",
+          "short_label": "Launch now",
+          "outcome_label": "RISKY",
+          "consequence_story": "You launch into the worst possible moment. Every review headline reads some version of 'Quibi launches as commuters vanish.' Your tagline — 'designed for life on the go' — becomes a punchline on Twitter. Downloads are decent the first week, but the users who try it immediately ask why they can't watch on their TV.",
+          "plain_english_explanation": "You built a product for commuters and launched it the exact week America stopped commuting. Market timing means matching your launch to when the market is ready for you — not just when you are ready to launch.",
+          "concept_explained": "Market timing: the gap between when your product is ready and when the world is ready for it. A product can be technically perfect and still fail because it launched into the wrong moment.",
+          "financial_impact": {
+            "cash_change": -45000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 1000000,
+            "subscriber_change": 150000,
+            "health_score_change": -10,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi launched April 6, 2020 — exactly as COVID lockdowns eliminated 100% of its commuter use case"
+        },
+        {
+          "id": "b",
+          "text": "Delay 30 days — assess the COVID situation and adjust marketing",
+          "short_label": "Wait 30 days",
+          "outcome_label": "SMART",
+          "consequence_story": "You push the launch to May. The team is nervous, investors are calling, but you're watching COVID spread maps instead of your launch calendar. In those 30 days you redirect every ad from 'on your commute' to 'perfect for right now.' When you launch, the message lands.",
+          "plain_english_explanation": "You gave yourself time to react to a world-changing event. The delay costs one month of burn, but the repositioned marketing gets you 30% more downloads than a tone-deaf April launch would have.",
+          "concept_explained": "Market timing isn't just about launch dates — it's about reading whether conditions favor your product right now. Sometimes the smartest launch strategy is waiting.",
+          "financial_impact": {
+            "cash_change": -15000000,
+            "monthly_burn_change": -5000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 5,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Delay 60 days and redesign the product for home viewing",
+          "short_label": "Full reset",
+          "outcome_label": "BOLD",
+          "consequence_story": "Two months of brutal pivoting. 'Quick bites for the go' becomes 'perfect for everywhere.' You test TV casting, cut the worst commuter-specific content, and add a web app. When you launch in June, you're a different product — and the reviews actually reflect that.",
+          "plain_english_explanation": "Two extra months of burn, but you launch a product that fits the world as it actually is, not as you planned it. A 60-day delay is expensive. Launching the wrong product to millions of people is more expensive.",
+          "concept_explained": "Pivoting before launch is cheaper than pivoting after — you haven't made promises to users yet. Use the time before launch to re-examine whether your product still fits the market.",
+          "financial_impact": {
+            "cash_change": -30000000,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": 8,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Launch as planned but immediately announce TV/casting support coming in 30 days",
+          "short_label": "Launch + promise",
+          "outcome_label": "BOLD",
+          "consequence_story": "You launch on time and get ahead of the biggest complaint before critics can make it. But 'coming soon' doesn't help the reviewers who can't cast to their TV right now — and 'coming soon' becomes a running joke when the 30-day promise slips to four months.",
+          "plain_english_explanation": "Promising a fix before you've built it buys goodwill short-term but destroys trust when the deadline slips. Shipping incomplete features under COVID-related delays taught Quibi that announcements without delivery hurt worse than silence.",
+          "concept_explained": "Market timing also applies to features: announcing too early creates expectations you may not meet. The moment you say 'coming soon,' the clock starts — and the market holds you to it.",
+          "financial_impact": {
+            "cash_change": -35000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 80000,
+            "health_score_change": -3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Market timing means reading whether the world is ready for your product right now — not just whether your product is ready. Launching into the wrong moment is just as fatal as shipping a broken product."
+    },
+    {
+      "id": "d2",
+      "decision_number": 2,
+      "situation": "Three weeks after launch. Your app reviews are brutal. 'Why can't I watch this on my TV?' is the top complaint in every app store. America is in month one of lockdown.",
+      "context": "You built a phone-only app for commuters. But your users are home, with a TV three feet away. Adding TV support would take your engineers off other work. But not adding it is bleeding subscribers daily.",
+      "concept_being_taught": "product_market_fit",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Stay mobile-only — that's the Quibi thesis",
+          "short_label": "Hold the line",
+          "outcome_label": "BOLD",
+          "consequence_story": "You say no. Mobile only. That's the product, that's the brand, that's the bet. Your VP of Engineering is relieved — no scramble, no all-nighters. Your users are not. The one-star reviews pile up like snow. 'Great content, unwatchable experience' becomes the consensus.",
+          "plain_english_explanation": "You had a product-market fit problem: your product was designed for a use case that no longer existed. Refusing to adapt when users are telling you the product doesn't fit their life is the definition of ignoring product-market fit signals.",
+          "concept_explained": "Product-market fit: does your product actually solve a problem for real people in the way they live their lives right now? When the market changes, the product has to change too — or the fit disappears.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": -1000000,
+            "subscriber_change": -50000,
+            "health_score_change": -8,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi remained mobile-only for four months until August 2020 — when it finally added Roku and AirPlay support, too late to matter"
+        },
+        {
+          "id": "b",
+          "text": "Emergency Roku and AirPlay sprint — ship TV support in 30 days",
+          "short_label": "Emergency pivot",
+          "outcome_label": "SMART",
+          "consequence_story": "Every engineer drops what they're doing. Thirty days of brutal nights and weekend standups. When Roku support ships, the app store reviews flip from 1-star to 3-star almost overnight. 'Finally' is the word that appears most in the new reviews — which tells you both that it worked and that you should have done it from day one.",
+          "plain_english_explanation": "A 30-day scramble costs money and engineering focus, but it removes the product's biggest complaint immediately. When your users are giving you a clear signal about what would make the product work, that signal is worth acting on fast.",
+          "concept_explained": "Product-market fit is not static — it changes when the market changes. The right response to losing fit is identifying the specific gap and closing it, not defending the original design.",
+          "financial_impact": {
+            "cash_change": -12000000,
+            "monthly_burn_change": 2000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 120000,
+            "health_score_change": 9,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Partner with Apple TV via existing API — quick partial fix",
+          "short_label": "Quick fix",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You leverage an existing Apple TV API and ship a partial integration in two weeks. Apple TV users are happy. Roku users — the majority — are still locked out. You fixed the problem for 20% of your user base and left 80% behind. Better than nothing. Worse than fixing all of it.",
+          "plain_english_explanation": "Partial solutions buy time but don't close the product-market fit gap — they just narrow it. Half a fix is better than no fix, but it still leaves most of your users with a broken experience.",
+          "concept_explained": "Identifying the specific product-market fit gap matters as much as moving fast. A fix that reaches 20% of users isn't the same as a fix that reaches all of them.",
+          "financial_impact": {
+            "cash_change": -4000000,
+            "monthly_burn_change": 500000,
+            "monthly_revenue_change": 1000000,
+            "subscriber_change": 45000,
+            "health_score_change": 3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Drop mobile entirely — rebuild as a web and TV-first product",
+          "short_label": "Total rebuild",
+          "outcome_label": "BOLD",
+          "consequence_story": "You declare mobile dead and start over. The rebranding announcement confuses everyone who just downloaded the app. Your web version is rough and TV support is half-baked. Three months in, you've alienated your early adopters, confused your new ones, and your engineers are exhausted.",
+          "plain_english_explanation": "Completely scrapping your product to chase product-market fit is usually worse than adapting it. You lose your existing users, your engineering momentum, and your brand coherence all at once.",
+          "concept_explained": "Product-market fit pivots should adapt the product to the market — not erase it. Rebuilding from scratch is the most expensive way to find fit, and often the slowest.",
+          "financial_impact": {
+            "cash_change": -20000000,
+            "monthly_burn_change": 8000000,
+            "monthly_revenue_change": -2000000,
+            "subscriber_change": -150000,
+            "health_score_change": -12,
+            "runway_change": -3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Product-market fit is not a one-time achievement — it's a relationship between your product and the market that can break when the market changes. When users tell you the product doesn't fit how they live, that's the signal to act."
+    },
+    {
+      "id": "d3",
+      "decision_number": 3,
+      "situation": "Month two. Critics are saying your 7-minute episodes feel like 'someone paused a real show right when it gets good.' Subscribers are binge-watching three episodes and then canceling. The commuter format is failing at home.",
+      "context": "Your entire content library is built around 7-10 minute episodes — perfect for a subway ride, terrible for a couch. You could greenlight longer content, but it costs more and takes time. Your current content isn't working.",
+      "concept_being_taught": "pivot",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Keep the commuter format — this is what Quibi is",
+          "short_label": "Stay the course",
+          "outcome_label": "RISKY",
+          "consequence_story": "You commission 40 more 7-minute commuter episodes. The content team is relieved. The viewers are not. A Variety headline: 'Quibi Is What Happens When a Great Idea Meets the Wrong Moment.' You keep churning out perfect little commuter shows for an audience that stopped commuting months ago.",
+          "plain_english_explanation": "Refusing to pivot when your product format doesn't fit the new reality is a choice — and it's an expensive one. Every dollar you spend making more content no one wants is a dollar you can't spend fixing what's broken.",
+          "concept_explained": "A pivot is when you change a key part of your product or strategy because the current approach isn't working. Choosing not to pivot is also a choice — one that costs you every month you stick with the wrong thing.",
+          "financial_impact": {
+            "cash_change": -20000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": -500000,
+            "subscriber_change": -30000,
+            "health_score_change": -7,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi never pivoted its short-form format — it doubled down on 7-10 minute 'quick bites' until shutdown"
+        },
+        {
+          "id": "b",
+          "text": "Greenlight 30-minute episodes alongside quick bites — give home viewers what they want",
+          "short_label": "Dual format",
+          "outcome_label": "SMART",
+          "consequence_story": "You hedge your bets. Keep the quick format for the day commuters come back — but greenlight 8 new 30-minute shows for the home audience right now. The content team pushes back hard. You hold firm. Three months later, the longer episodes outperform the short ones four-to-one. One of them becomes a word-of-mouth hit that pulls new subscribers in without a single ad.",
+          "plain_english_explanation": "You changed the part of the product that wasn't working without throwing away everything. A partial pivot — adapting one dimension of the product while protecting the rest — often costs less than a full rebuild and finds product-market fit faster.",
+          "concept_explained": "Pivots exist on a spectrum: from small tweaks to complete reinventions. The best pivots are the smallest change that closes the biggest gap between what you built and what users actually want.",
+          "financial_impact": {
+            "cash_change": -15000000,
+            "monthly_burn_change": 3000000,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 70000,
+            "health_score_change": 6,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Pause all new content commissions — protect cash while you figure out what works",
+          "short_label": "Hit pause",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You stop greenlighting new shows. No new shoots. No new deals. The content team is miserable — half of them start interviewing elsewhere. But the cash is safe. You spend six weeks watching what your users actually watch, and the data is clear: they want longer episodes and they want to watch on their TV.",
+          "plain_english_explanation": "When you don't know what's working, spending less while you figure it out is smarter than spending more on something that isn't working. Pausing content spend bought time — the most valuable resource when you're figuring out a pivot.",
+          "concept_explained": "Sometimes the right pivot is first stopping the thing that's not working before deciding what to replace it with. Spending nothing is better than spending on the wrong thing.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": -200000,
+            "subscriber_change": -20000,
+            "health_score_change": 2,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Full pivot — cancel all quick-bite content and rebuild as a long-form platform",
+          "short_label": "Full pivot",
+          "outcome_label": "BOLD",
+          "consequence_story": "You scrap the entire library of in-production 7-minute shows. The cancellation fees alone are $25M. You announce a relaunch as a 'premium long-form streaming platform.' Your existing subscribers are confused. Your creators are furious. Six months later you have a mediocre long-form catalog and no identity.",
+          "plain_english_explanation": "A full pivot that erases your existing product usually destroys more value than it creates. You paid $25M to walk away from content you already paid for — that's on top of the cost of building the new thing.",
+          "concept_explained": "The cost of a pivot includes not just the new direction but what you give up — contracts, content, goodwill, brand. Always calculate the full cost of the pivot before committing, not just the cost of the new path.",
+          "financial_impact": {
+            "cash_change": -25000000,
+            "monthly_burn_change": 8000000,
+            "monthly_revenue_change": 1000000,
+            "subscriber_change": 20000,
+            "health_score_change": -4,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "A pivot is a deliberate change to what you're building because the current approach isn't working. Refusing to pivot when the evidence is clear is not loyalty to your vision — it's spending money on a product no one wants."
+    },
+    {
+      "id": "d4",
+      "decision_number": 4,
+      "situation": "Month three. Netflix reaches out. They'll co-distribute your content on their platform — exposure to 200 million subscribers — in exchange for a non-exclusive licensing deal. No acquisition. No strings.",
+      "context": "Netflix has your exact audience at massive scale. A licensing deal would generate revenue and expose your brand to millions. But you built Quibi to be a standalone platform — partnering with Netflix means sharing what makes you unique.",
+      "concept_being_taught": "opportunity_cost",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Decline — Quibi is a standalone product, not a Netflix supplier",
+          "short_label": "Say no",
+          "outcome_label": "BOLD",
+          "consequence_story": "You say no. Quibi is its own thing. You won't be Netflix's little brother. The investors nod. The team nods. And three months later, Quibi has 1.3 million subscribers while Netflix adds 10 million in the same quarter. The gap between what you have and what you could have had gets wider every week.",
+          "plain_english_explanation": "You passed on a deal that would have put your content in front of 200 million people. The cost of saying no — revenue and exposure you gave up — is called opportunity cost. It doesn't show up on your bank statement, but it's just as real as cash you spent.",
+          "concept_explained": "Opportunity cost: the value of the option you didn't take. When you say no to a deal, you're not just declining that deal — you're choosing to give up everything that deal would have produced.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": -3000000,
+            "subscriber_change": -50000,
+            "health_score_change": -10,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi declined multiple partnership opportunities, including approaches from larger streaming platforms, to protect its standalone positioning"
+        },
+        {
+          "id": "b",
+          "text": "Accept the distribution partnership — content on Netflix and Quibi",
+          "short_label": "Take the deal",
+          "outcome_label": "SMART",
+          "consequence_story": "Netflix users discover Quibi content. A million people watch your three best shows in the first week. Your subscriber numbers climb. Revenue jumps $5M a month. You just extended your runway from a deal that cost you nothing — and your brand is now in front of an audience 150 times larger than your own.",
+          "plain_english_explanation": "You recognized that the opportunity cost of saying no — 200 million potential viewers — was too high. Sometimes the best way to grow your platform is to put your content on a bigger one, not defend your turf.",
+          "concept_explained": "Every deal you evaluate has two sides: what you gain and what you give up. Accepting this deal meant giving up standalone exclusivity in exchange for revenue, reach, and runway. That trade was clearly worth it.",
+          "financial_impact": {
+            "cash_change": 20000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 200000,
+            "health_score_change": 10,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Accept but negotiate a 60-day exclusive window on Quibi first",
+          "short_label": "Negotiate terms",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Netflix agrees to a 60-day Quibi exclusive before content hits their platform. You get the best of both worlds — your exclusivity window plus Netflix distribution. The negotiation takes 45 days, which means the deal activates slower, but when it does, the subscriber lift is real.",
+          "plain_english_explanation": "You took the deal but protected what mattered most — first access for your own subscribers. Negotiating the right terms reduced the opportunity cost of the partnership rather than eliminating the deal entirely.",
+          "concept_explained": "Opportunity cost analysis isn't just accept-or-reject — it includes asking what terms would reduce the downside while capturing the upside. A negotiated deal often beats both a pure yes and a pure no.",
+          "financial_impact": {
+            "cash_change": 10000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 80000,
+            "health_score_change": 5,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Counter-propose a full Netflix acquisition of Quibi",
+          "short_label": "Ask to be bought",
+          "outcome_label": "BOLD",
+          "consequence_story": "You thank Netflix for the offer and counter with a full acquisition at $1.2 billion. Netflix declines immediately. Three months of awkward follow-up calls go nowhere. The original partnership offer is no longer on the table. You burned your best relationship in the streaming industry trying to get a price nobody would pay.",
+          "plain_english_explanation": "Asking for a buyout when someone offers a partnership is a gamble — and when it fails, you lose both the deal and the relationship. The opportunity cost of this counter-move was the entire partnership, plus three months of management attention.",
+          "concept_explained": "Opportunity cost works in both directions: the cost of asking for too much can be losing what you already had. Turning a solid deal into a failed acquisition attempt destroyed more value than accepting the original offer would have cost.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -10000,
+            "health_score_change": -4,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Opportunity cost is the value of what you gave up, not just the cost of what you chose. Every time you say no to a deal, you pay the price of not having it — even if no money changes hands."
+    },
+    {
+      "id": "d5",
+      "decision_number": 5,
+      "situation": "Month four. Your TV ads are still showing smiling people on subways, at airports, walking through office lobbies. America is in month four of lockdowns. Your marketing looks like a time capsule.",
+      "context": "You're spending $30M a month on marketing that shows a world that no longer exists. Changing it means admitting the commuter premise is broken. Not changing it means spending money to remind people that your app was designed for a life nobody is living.",
+      "concept_being_taught": "positioning",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue commuter marketing — that's the brand identity",
+          "short_label": "Keep the brand",
+          "outcome_label": "RISKY",
+          "consequence_story": "Your new ads run on national TV: a man in a suit watching Quibi on his phone, heading into a glass office tower. Twitter clips it and posts it next to footage of empty downtowns. The brand becomes a meme. 'Quibi ad just played during a COVID briefing' gets 200,000 likes. You are paying to be mocked.",
+          "plain_english_explanation": "Your marketing told a story that conflicted with reality. Positioning — how you describe your product and who you say it's for — must match the world your customers are actually living in. Commuter positioning in lockdown didn't just miss: it actively made people distrust the brand.",
+          "concept_explained": "Positioning is the story you tell about who your product is for and why they need it. When that story stops matching reality, continuing to tell it doesn't preserve the brand — it damages it.",
+          "financial_impact": {
+            "cash_change": -30000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 20000,
+            "health_score_change": -8,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi continued commuter-focused marketing well into the pandemic, including a Super Bowl ad that aired to locked-down households"
+        },
+        {
+          "id": "b",
+          "text": "Emergency rebrand — 'perfect for right now, wherever you are'",
+          "short_label": "Rebrand fast",
+          "outcome_label": "SMART",
+          "consequence_story": "New tagline in two weeks: 'Your next favorite show. Any screen.' The commuter footage is gone. New ads show couples on couches, people cooking while watching, kids in their rooms. Downloads jump 40% the first week the new campaign runs. It's the same product. The message finally fits the world.",
+          "plain_english_explanation": "You updated your positioning to match the reality your customers were living in. Nothing about the product changed — only the story you told about it. The right positioning unlocked downloads that the old messaging actively blocked.",
+          "concept_explained": "Repositioning: changing how you describe your product without changing the product itself. When the market shifts, repositioning is often the fastest and cheapest way to restore fit.",
+          "financial_impact": {
+            "cash_change": -15000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 80000,
+            "health_score_change": 7,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Pull all ads and go dark — stop marketing a broken product",
+          "short_label": "Go dark",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You kill every campaign. No TV, no digital, no social spend. The marketing team panics. Your investors notice immediately — 'why is media spend at zero?' But you save $15M a month and use the quiet to understand what's actually wrong. Six weeks later, the data from your existing users is more valuable than anything a campaign could tell you.",
+          "plain_english_explanation": "When your positioning is actively hurting you, spending less on it is better than spending more. Sometimes going dark isn't a retreat — it's a pause to make sure you're not paying to damage your own brand.",
+          "concept_explained": "Advertising amplifies your positioning — for better or worse. If your positioning is wrong, more advertising makes the problem worse, not better. Stopping spend is a valid option when the message is actively working against you.",
+          "financial_impact": {
+            "cash_change": 8000000,
+            "monthly_burn_change": -5000000,
+            "monthly_revenue_change": -1000000,
+            "subscriber_change": -30000,
+            "health_score_change": -2,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Launch a user-generated content campaign — let real users tell the story",
+          "short_label": "User content",
+          "outcome_label": "BOLD",
+          "consequence_story": "You launch a hashtag challenge and offer $500 to anyone who posts a video of themselves watching Quibi. The first week is a modest success. A few clips get traction on TikTok. Then the campaign quietly dies — turns out, sharing 7-minute video clips is awkward, and most of your users are embarrassed to admit they watch the app.",
+          "plain_english_explanation": "User-generated campaigns work when users love the product enough to share it. When the product has a positioning problem, no amount of user-generated content fixes it — because users won't advocate for something that doesn't fit their life.",
+          "concept_explained": "Positioning problems can't be solved by marketing creativity alone. If users don't genuinely see themselves in the product, no campaign — not even one powered by real users — will fix the mismatch.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 2000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 30000,
+            "health_score_change": 2,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Positioning is the story you tell the market about who your product is for. When that story conflicts with reality, you aren't just wasting marketing money — you're actively driving away the people who might otherwise try the product."
+    },
+    {
+      "id": "d6",
+      "decision_number": 6,
+      "situation": "Month five. You have over $1 billion committed in content deals. Each episode costs millions to produce and gets watched by tens of thousands of people. The math is unsustainable — but breaking these deals will anger the biggest names in Hollywood.",
+      "context": "You signed deals with Spielberg, Ridley Scott, and dozens of A-listers. Honoring them burns through cash fast. Renegotiating burns goodwill. But cash is what keeps the company alive.",
+      "concept_being_taught": "cash_management",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Honor all commitments — content is king and relationships matter",
+          "short_label": "Pay everyone",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "The checks go out. Spielberg gets paid. Ridley Scott gets paid. Beautiful content ships on schedule. Almost nobody watches it. You are producing some of the most expensive-per-viewer video in television history and your runway is evaporating at $100M a month.",
+          "plain_english_explanation": "You chose relationships over cash — and ran out of cash. Content is only king if you have enough money to still be in business when people find it. Cash management is about knowing when keeping money in the bank matters more than keeping commitments that are actively destroying your runway.",
+          "concept_explained": "Cash management: knowing which commitments are worth keeping when cash is limited. Not every obligation is equally important to survival — prioritizing them is the job.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": 10000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 10000,
+            "health_score_change": -12,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi honored its $1B+ content commitments in full, producing shows that cost millions per episode for an audience in the hundreds of thousands"
+        },
+        {
+          "id": "b",
+          "text": "Renegotiate 50% of the deals — offer reduced payments or release dates",
+          "short_label": "Renegotiate half",
+          "outcome_label": "SMART",
+          "consequence_story": "Half your creators are furious. Half understand — they've seen the subscriber numbers too. You save $300M in committed spend and cut your monthly burn by 15%. It's not glamorous. Some creators publicly criticize the move. But six months later, the company is still alive and a few of those angry creators have come back with new pitches.",
+          "plain_english_explanation": "You traded short-term goodwill for long-term survival. Renegotiating when you're burning too fast isn't a betrayal — it's what companies do when their cash management requires it. Staying alive is worth the temporary awkwardness.",
+          "concept_explained": "Cash management sometimes means revisiting commitments you've already made. Contracts are negotiable when both parties agree — and many partners would rather renegotiate than lose the deal entirely if the company shuts down.",
+          "financial_impact": {
+            "cash_change": 50000000,
+            "monthly_burn_change": -15000000,
+            "monthly_revenue_change": -1000000,
+            "subscriber_change": -20000,
+            "health_score_change": 8,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Invoke force majeure — COVID has made production impossible",
+          "short_label": "Force majeure",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Your legal team argues that COVID constitutes a force majeure event — an unforeseeable circumstance that makes performance impossible. Half the deals get paused. Production halts. You save $80M. Some creators are sympathetic; some sue. When production restarts six months later, your pipeline is nearly empty and you've spent more on lawyers than you saved on content.",
+          "plain_english_explanation": "Force majeure is a legal clause that lets you suspend contracts during emergencies. It saved cash short-term but created legal costs, damaged relationships, and left the content pipeline empty when subscribers needed new shows most.",
+          "concept_explained": "Cash management tradeoffs: saving cash today sometimes creates bigger costs later. Every option has a price — legal fees, empty pipelines, broken relationships — that you have to subtract from the savings.",
+          "financial_impact": {
+            "cash_change": 80000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": -2000000,
+            "subscriber_change": -40000,
+            "health_score_change": 3,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "License your existing content catalog to competitors — sell what you have",
+          "short_label": "License content",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You sell streaming rights to 40 of your best shows to Peacock and HBO Max. It feels like surrendering territory. But the $30M upfront and $3M monthly licensing checks buy you real runway — and Peacock's audience discovers your content and some of them come back to Quibi for more.",
+          "plain_english_explanation": "Instead of burning cash on production, you turned your existing content into cash. Licensing is a way to extract value from assets you've already paid for, without spending more money to create new ones.",
+          "concept_explained": "Cash management includes finding cash in unexpected places — like your existing asset library. Content you've already paid for can generate revenue through licensing long after the original subscribers have churned.",
+          "financial_impact": {
+            "cash_change": 30000000,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": -10000,
+            "health_score_change": 5,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Cash management means knowing which commitments are worth keeping when survival is at stake. Honoring every obligation feels right — but a company that runs out of cash can't honor any of them."
+    },
+    {
+      "id": "d7",
+      "decision_number": 7,
+      "situation": "Month six. August 2020. You have $700M left. Three companies have quietly approached about acquiring Quibi or its content library. Your board is asking questions. Your investors want to know the plan.",
+      "context": "You've spent $1B and have 1.3M subscribers. The math doesn't work. Multiple acquirers are willing to buy now — but accepting means admitting that the original vision failed. Walking away from the acquisition offers means betting everything on the next few months.",
+      "concept_being_taught": "sunk_cost",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Reject all offers — we haven't hit our stride yet",
+          "short_label": "Reject all",
+          "outcome_label": "BOLD",
+          "consequence_story": "You send the acquirers away. The board pushes back. 'We haven't given the product enough time,' you argue. Except the product has had six months, a billion dollars in marketing, and the biggest content names in Hollywood. Rejecting acquisition offers to avoid admitting failure is the definition of letting sunk cost dictate strategy.",
+          "plain_english_explanation": "You made the decision based on what you've already spent, not on what the future looks like. The $1B you spent is gone whether you sell or not — the only question is what the next $700M produces. That is sunk cost fallacy: letting past spending justify future spending with no change in the math.",
+          "concept_explained": "Sunk cost fallacy: making decisions based on money already spent rather than future value. The $1B Quibi spent is gone either way — it should have zero weight in the decision about whether to sell now.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -50000,
+            "health_score_change": -10,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi declined multiple acquisition offers before ultimately shutting down, returning cash rather than accepting any deal"
+        },
+        {
+          "id": "b",
+          "text": "Accept Roku's offer — $100M for the content library and subscriber base",
+          "short_label": "Sell to Roku",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Roku gets your content and distribution. You get $100M and a home on the biggest streaming device in America. Your content lives on. Some of your subscribers follow it. It isn't the outcome you dreamed of — but the company didn't cease to exist, and you didn't burn the last $700M on a doomed comeback.",
+          "plain_english_explanation": "You recognized that the $1B already spent couldn't be recovered and made a decision based on what the next step actually produces. Taking $100M when you've already burned over $1B isn't a great deal — but it's better than spending the $700M and getting nothing.",
+          "concept_explained": "Avoiding sunk cost fallacy means making each decision based only on future value, not past investment. A smaller return now can beat a larger bet later when the odds are clearly against you.",
+          "financial_impact": {
+            "cash_change": 100000000,
+            "monthly_burn_change": -30000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 100000,
+            "health_score_change": 5,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Accept NBC Universal's offer — $250M for the full Quibi platform",
+          "short_label": "Sell to NBC",
+          "outcome_label": "SMART",
+          "consequence_story": "Peacock absorbs Quibi. Your content goes to 50 million Peacock users the first week. Subscriber numbers for Quibi content spike even as the brand itself dissolves. The team transitions to Peacock roles. The Quibi name disappears — but the shows don't, and neither do the jobs.",
+          "plain_english_explanation": "You took the best offer available and stopped the bleeding. NBC Universal gets a content library and subscriber base; you get $250M and an end to the burn. The sunk cost — $1B+ already spent — didn't factor in, because it couldn't come back either way.",
+          "concept_explained": "Sunk cost awareness means you can accept a smaller win today over a bigger loss tomorrow. $250M from a sale is better than $0 from a bankruptcy — even when the original investment was $1.75B.",
+          "financial_impact": {
+            "cash_change": 250000000,
+            "monthly_burn_change": -50000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 200000,
+            "health_score_change": 10,
+            "runway_change": 6
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Run an open auction — hire Goldman Sachs and take the highest bid",
+          "short_label": "Run auction",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You bring in Goldman Sachs. NDAs go out to seven potential acquirers. Three months of management presentations, data room access, and negotiation rounds. By the time the auction concludes, your subscriber numbers have dropped 40% since the process started, and the best bid dropped from $300M to $180M — because every acquirer watched your metrics worsen in real time.",
+          "plain_english_explanation": "A formal auction process takes time — and while you're running the process, the clock is still ticking. The longer the auction, the worse your metrics get, and the lower the bids come in.",
+          "concept_explained": "Sunk cost also applies to time: a three-month auction process means three more months of burn with declining metrics. Sometimes the fastest acceptable deal is better than the theoretically best deal that takes too long to close.",
+          "financial_impact": {
+            "cash_change": -10000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -30000,
+            "health_score_change": -5,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Sunk cost fallacy is when you make decisions based on what you've already spent instead of what the future actually holds. The money is gone either way — the only question is what you do with what's left."
+    },
+    {
+      "id": "d8",
+      "decision_number": 8,
+      "situation": "October 2020. Six months since launch. You have $350M left. 92% of trial users never became paid subscribers. Your monthly active users are 500,000 — in a market where Netflix has 200 million. Your investors say the math is done.",
+      "context": "You've spent $1.4 billion. The $350M left is real money that could go back to investors — or get burned in a final push. The question isn't whether Quibi worked. It didn't. The question is what you do with what's left.",
+      "concept_being_taught": "runway",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Spend the remaining $350M on an all-in marketing hail mary",
+          "short_label": "Hail mary",
+          "outcome_label": "RISKY",
+          "consequence_story": "You bet everything. Times Square billboards. National television. Celebrity endorsements. For six weeks, Quibi is unavoidable. Downloads tick up slightly. Then the cash runs out and the servers go dark. You burned $350M trying to save a product that the market had already rejected — and returned nothing.",
+          "plain_english_explanation": "When a product has 92% trial abandonment, more marketing doesn't fix it — it just spends more money reaching people who will also abandon it. Runway is only useful if you're doing something with the time that changes the underlying problem. Marketing a product nobody wants to keep doesn't change the underlying problem.",
+          "concept_explained": "Runway is time — but only valuable time if you're using it to change something that matters. Spending your last runway on marketing a fundamentally broken product doesn't extend survival, it just accelerates the same failure.",
+          "financial_impact": {
+            "cash_change": -350000000,
+            "monthly_burn_change": 20000000,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 100000,
+            "health_score_change": -30,
+            "runway_change": -6
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "b",
+          "text": "Pivot entirely — fire everyone and build a different product with the remaining cash",
+          "short_label": "New product",
+          "outcome_label": "RISKY",
+          "consequence_story": "You announce a full pivot: Quibi is shutting down, but the team is building something new. Severance costs $100M. The new product needs 18 months to build. You have 3 months of runway left. The math never adds up, and the remaining cash runs out before version one ships.",
+          "plain_english_explanation": "Pivoting to a completely new product when you have 3 months of runway left doesn't work. Runway measures how much time you have — and 3 months isn't enough time to design, build, and launch a product from scratch.",
+          "concept_explained": "Runway constrains what's possible. A pivot that requires 18 months to execute is not viable when you have 3 months of runway. The length of your runway determines what strategies are actually available to you.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": -5000000,
+            "subscriber_change": -400000,
+            "health_score_change": -15,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Wind down gracefully — return the $350M to investors",
+          "short_label": "Return the cash",
+          "outcome_label": "SMART",
+          "consequence_story": "You call the investors. 'We're shutting down and returning the money.' The room goes quiet for a long moment. Then one by one, they say thank you. You didn't waste what was left trying to save what was already gone. The $350M goes back — and every investor on that call will take your next call, because you showed them you knew when to stop.",
+          "plain_english_explanation": "Returning $350M when you know the product is done isn't failure — it's the right use of your remaining runway. The question at the end is never 'can we keep going?' It's 'will spending this money change the outcome?' When the answer is no, preserving what's left is the right call.",
+          "concept_explained": "Runway is most valuable when you use it to fix what's broken. When nothing you can do with the remaining runway changes the outcome, the best use of that time is an orderly shutdown that preserves value for everyone involved.",
+          "financial_impact": {
+            "cash_change": -350000000,
+            "monthly_burn_change": -90000000,
+            "monthly_revenue_change": -5000000,
+            "subscriber_change": -500000,
+            "health_score_change": 10,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "This is the ONE good decision Quibi made — returning remaining cash instead of burning it on a doomed comeback"
+        },
+        {
+          "id": "d",
+          "text": "Fight to zero — spend every dollar, extract every last subscriber",
+          "short_label": "Fight to zero",
+          "outcome_label": "BOLD",
+          "consequence_story": "You refuse to quit. Monthly burn continues. Emergency board meetings every two weeks. You squeeze out 20,000 more subscribers over three months through promotions and price cuts. Then the last check bounces and the servers go dark. You spent $350M to get 20,000 subscribers who paid $5 each. The math: $350M spent, $100,000 earned.",
+          "plain_english_explanation": "Fighting to zero when the product is fundamentally broken doesn't produce a different outcome — it just delays it and burns the cash that could have gone back to investors. Knowing when to stop is a skill, not a surrender.",
+          "concept_explained": "Runway is finite. Spending it fighting a losing battle doesn't create more runway — it just eliminates the runway you had left while returning nothing. The choice at the end is: spend it or return it.",
+          "financial_impact": {
+            "cash_change": -350000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 20000,
+            "health_score_change": -20,
+            "runway_change": -6
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "c",
+      "learning_moment": "Runway is only valuable if you use it to change something that matters. When you know the outcome and no available action changes it, the right thing to do with your remaining runway is protect what's left — not burn it."
+    }
+  ],
+  "endings": {
+    "bankrupt": {
+      "trigger_condition": "cash <= 0",
+      "story": "You ran out of money before the product found its market. The servers go dark. The team gets the email. Quibi is dead — not because the content was bad, but because every decision made the timing problem worse instead of fixing it.",
+      "epitaph": "Quibi launched the right product into the wrong world and refused to change either. You followed the same path.",
+      "lesson": "Market timing failures are fixable — but only if you're willing to pivot when the market tells you to."
+    },
+    "saved": {
+      "trigger_condition": "health_score >= 60 AND runway_months >= 3 after decision 8",
+      "story": "You read the market, made the hard pivots, and gave the product a real chance to find its audience. The company survives — not because the original vision was right, but because you adapted it to the world that actually existed.",
+      "lesson": "You understood that timing isn't something that happens to you — it's something you respond to. The right product at the right time is a decision, not an accident."
+    },
+    "struggling": {
+      "trigger_condition": "alive but health_score < 60",
+      "story": "You survived — barely. Some of your pivots worked. Some came too late. The company is still breathing, but the foundation is shaky.",
+      "lesson": "You made some smart calls but the timing problem was never fully solved. Being a step behind the market is survivable — but only if you keep running."
+    }
+  },
+  "real_outcome": "Quibi shut down in October 2020, six months after launch. It raised $1.75 billion, launched into a global pandemic that eliminated its entire use case, refused to pivot its mobile-only product until it was too late, and returned approximately $350 million to investors — burning through $1.4 billion in the process.",
+  "concepts_taught": [
+    "market_timing",
+    "product_market_fit",
+    "pivot",
+    "opportunity_cost",
+    "positioning",
+    "cash_management",
+    "sunk_cost",
+    "runway"
+  ],
+  "what_you_learned_summary": "Market timing means reading whether the world is ready for your product right now — and pivoting when it isn't. A pivot is a deliberate change in direction when the evidence tells you the current path isn't working — refusing to pivot when the signs are clear is just as costly as pivoting wrong. Product-market fit is not permanent: it breaks when the market changes, and the right response is closing the gap fast, not defending the original design. Opportunity cost and sunk cost work against each other — every deal you pass on has a price, and every dollar you spent in the past should have zero weight in deciding what to do next. When positioning doesn't match reality, cash management and runway are your last tools: spend them on things that change the outcome, and return what's left when nothing will."
+}

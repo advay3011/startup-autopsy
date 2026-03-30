@@ -1,0 +1,765 @@
+{
+  "id": "wework_valuation",
+  "company": "WeWork",
+  "concept": "Valuation & Overspending",
+  "concept_description": "A sky-high valuation looks like winning — until every dollar you spend has to prove the number was real.",
+  "concept_analogy": "Valuation is like a sticker price on a house. If the price is twice what similar homes sell for, every buyer who looks inside will ask harder questions — and tiny cracks look like structural damage.",
+  "industry": "Real Estate/Tech",
+  "emoji": "🏠",
+  "tagline": "$47B → $2.9B in 60 days",
+  "difficulty": "intermediate",
+  "opening_story": "It's 2019. WeWork is filing paperwork to go public. Analysts open the S-1 and see the truth under the hype: a $47 billion valuation resting on billions in rent commitments and losses bigger than most startups' revenues. Your job is to steer through the gap between story and math — before the market closes it for you.",
+  "initial_financials": {
+    "cash": 3000000000,
+    "monthly_burn": 130000000,
+    "monthly_revenue": 90000000,
+    "subscribers": 280,
+    "runway_months": 23,
+    "health_score": 48,
+    "health_breakdown": {
+      "burn_rate_health": 30,
+      "revenue_growth": 60,
+      "unit_economics": 20,
+      "cash_flow": 45,
+      "investor_confidence": 80
+    }
+  },
+  "decisions": [
+    {
+      "id": "d1",
+      "decision_number": 1,
+      "situation": "SoftBank is offering WeWork a massive $4 billion investment at a $47 billion valuation — 10x your real estate revenues. Your bankers say the market rate is closer to $20 billion. SoftBank wants the inflated number to protect their earlier investment.",
+      "context": "Taking money at an inflated valuation looks great today but creates an impossible bar to clear: every future decision must justify that $47B number.",
+      "concept_being_taught": "valuation",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Accept SoftBank's $4B at the $47B valuation — take the money and the hype",
+          "short_label": "Take the $47B deal",
+          "outcome_label": "RISKY",
+          "consequence_story": "SoftBank wires $4 billion into WeWork's account at a $47 billion valuation. You're now the most valuable startup in the world after Uber. Champagne flows at HQ. But deep inside finance, someone quietly notes: WeWork makes $1.8 billion per year in revenue. At $47 billion, investors are pricing in growth that would take 10 years to achieve — if everything goes perfectly.",
+          "plain_english_explanation": "You took $4 billion at a $47 billion valuation. That means investors believe the company is worth $47B — but your annual revenue is only $1.8B. That's a 26x revenue multiple. Normal real estate companies trade at 1-2x revenue. You've created a gap between perception and reality that will eventually close — violently.",
+          "concept_explained": "Valuation is what investors think your entire company is worth. When valuation is 26x your actual revenue, you've borrowed against a future that may never exist. The higher the valuation, the more you must become to justify it.",
+          "financial_impact": {
+            "cash_change": 4000000000,
+            "monthly_burn_change": 15000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 20,
+            "health_score_change": -8,
+            "runway_change": 10
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "SoftBank invested in WeWork at a $47B valuation in January 2019. WeWork's actual revenues were approximately $1.8B annually at the time."
+        },
+        {
+          "id": "b",
+          "text": "Negotiate with SoftBank for $3B at a realistic $20B valuation — less hype, more stability",
+          "short_label": "Fair valuation deal",
+          "outcome_label": "SMART",
+          "consequence_story": "SoftBank pushes back. You hold firm. After three weeks of tense negotiations, they agree to $3 billion at $20 billion — still an extraordinary valuation, but one your revenues can grow into. The press calls it a disappointment. Your CFO calls it survivable.",
+          "plain_english_explanation": "You raised $3 billion at a $20 billion valuation — 11x your annual revenue. Still aggressive, but not insane. You gave up $1 billion in immediate cash, but you've set a bar you can actually clear. A $20B valuation requires growing revenues to roughly $5B. A $47B valuation required $12B+ in revenues. The difference is the difference between ambitious and impossible.",
+          "concept_explained": "A realistic valuation means the expectations attached to your money are achievable. Taking capital at an inflated valuation is like agreeing to repay a loan with interest you can never afford.",
+          "financial_impact": {
+            "cash_change": 3000000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 8000000,
+            "subscriber_change": 15,
+            "health_score_change": 7,
+            "runway_change": 8
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Skip the SoftBank round entirely — focus on profitability with existing cash",
+          "short_label": "Skip the round",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You walk away from SoftBank's billions. The market buzzes with confusion. With $3 billion in the bank and $130 million monthly burn, you have 23 months of runway. But your expansion pipeline dries up. Competitors fill the space you chose not to occupy.",
+          "plain_english_explanation": "You have 23 months of runway without raising. That sounds OK — except you're signing 15-year leases every month for new locations. Each new location costs $5-10M upfront. Without fresh capital, your expansion stops. Revenue growth stalls. The $47B story that kept investors excited starts to fall apart.",
+          "concept_explained": "Sometimes the right move is not to raise. But in a capital-intensive business with signed lease commitments, not raising when you can creates its own kind of crisis.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": -5000000,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 5,
+            "health_score_change": -2,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Accept the $47B valuation AND ask for $6B — maximize the war chest while SoftBank is enthusiastic",
+          "short_label": "Take $6B at $47B",
+          "outcome_label": "BOLD",
+          "consequence_story": "SoftBank blinks. They agree to $6 billion at $47 billion — the largest single private investment in history. The press goes wild. But your burn rate just jumped: more cash means more expansion, more offices, more staff. You're now spending $155 million every month. The $47B number is now bigger than it's ever been. So is the hole it needs to dig itself out of.",
+          "plain_english_explanation": "You have $9 billion in the bank now — but you're burning $155 million a month. That's 58 months of runway. It sounds like forever. But you've also cemented a $47 billion valuation that requires you to grow into $10+ billion in revenue. Every month you can't hit those numbers, investor confidence erodes.",
+          "concept_explained": "More money at a higher valuation is not always better. Each dollar raised at an inflated number increases the expectation debt you owe to the future.",
+          "financial_impact": {
+            "cash_change": 6000000000,
+            "monthly_burn_change": 25000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 30,
+            "health_score_change": -12,
+            "runway_change": 12
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Valuation is a promise, not a fact. Every dollar raised at an inflated valuation is borrowed against a future that may never arrive. The higher you go, the further you fall."
+    },
+    {
+      "id": "d2",
+      "decision_number": 2,
+      "situation": "Your board discovers that Adam Neumann has been issuing himself WeWork stock and selling it back to the company — personally profiting $700M+ while WeWork loses money. The S-1 filing will expose all of this to the public.",
+      "context": "Governance problems this severe will trigger investor scrutiny, but confronting Neumann risks the entire fundraising narrative that depends on his personal brand.",
+      "concept_being_taught": "corporate_governance",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Let it be — Neumann is WeWork's identity and the IPO depends on his story",
+          "short_label": "Ignore the problem",
+          "outcome_label": "RISKY",
+          "consequence_story": "The board looks the other way. Neumann continues to monetize his ownership. When the S-1 eventually drops, every line about Neumann's self-dealing gets highlighted by journalists. The Wall Street Journal runs five separate stories. Each story costs WeWork another billion in valuation.",
+          "plain_english_explanation": "Ignoring governance problems does not make them disappear — it stores them as future crises. Every dollar Neumann extracts from WeWork while it loses money is a dollar that must be explained to public market investors. And public market investors do not tolerate what private investors quietly accepted.",
+          "concept_explained": "Corporate governance is the set of rules that prevent the people running a company from using it for personal gain. When governance breaks down, investors — especially public market investors — exit fast.",
+          "financial_impact": {
+            "cash_change": -200000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -9,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "WeWork's board allowed Neumann to sell $700M+ in personal stock back to the company and charge the company to use his own trademark. This was disclosed in the 2019 S-1 filing."
+        },
+        {
+          "id": "b",
+          "text": "Require Neumann to restructure his equity arrangements before the S-1 is filed",
+          "short_label": "Fix it before S-1",
+          "outcome_label": "SMART",
+          "consequence_story": "It's an ugly conversation. Neumann pushes back hard. But the board holds firm: no equity self-dealing before the IPO. Three weeks of negotiation later, the agreements are restructured. When the S-1 drops, the governance section is clean enough that analysts focus on the business model — not the CEO's personal deals.",
+          "plain_english_explanation": "Fixing governance before going public costs three weeks and some political capital. Not fixing it costs you your IPO. Public market investors apply a discount of 20-40% to companies with governance red flags. On a $47B deal, that discount is $9-19 billion.",
+          "concept_explained": "Clean governance protects company value. The cost of fixing problems before they become public is always lower than the cost of fixing them after.",
+          "financial_impact": {
+            "cash_change": -50000000,
+            "monthly_burn_change": -5000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 5,
+            "health_score_change": 6,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Disclose everything in the S-1 but add extensive explanatory footnotes to minimize damage",
+          "short_label": "Disclose with spin",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "The S-1 is 400 pages of dense disclosure. The governance problems are buried on page 312. Financial journalists immediately find them on page 312. The footnotes don't hide the story — they just make the story take 24 hours to write instead of 2.",
+          "plain_english_explanation": "Disclosure with footnotes is better than no disclosure, but the problem is still there. Investors read S-1 filings looking for exactly these red flags. Burying bad news in footnotes signals that management knows it's bad and hoped no one would notice.",
+          "concept_explained": "Transparency means disclosing problems clearly, not minimally. When investors feel misled — even by omission — the trust penalty is larger than the problem itself.",
+          "financial_impact": {
+            "cash_change": -20000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 1000000,
+            "subscriber_change": 0,
+            "health_score_change": -3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Replace Neumann as CEO before the IPO, bring in an operator with clean governance",
+          "short_label": "Replace the CEO",
+          "outcome_label": "BOLD",
+          "consequence_story": "The board votes to transition Neumann out as CEO ahead of the IPO. It's the most dramatic startup governance story in years. But the incoming CEO — a seasoned operator — immediately restructures the equity. Investor confidence in the IPO narrative actually improves once the governance cloud lifts.",
+          "plain_english_explanation": "Removing a founder-CEO costs internal turmoil but signals to investors that governance matters more than personality. Companies that make this move ahead of an IPO typically see their valuation multiples improve post-transition.",
+          "concept_explained": "Founder-CEO transitions are painful but sometimes necessary. Investors in public companies care as much about governance stability as growth rates.",
+          "financial_impact": {
+            "cash_change": -80000000,
+            "monthly_burn_change": -8000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 10,
+            "health_score_change": 4,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Governance problems exposed at IPO are fatal. Every dollar a founder extracts from a losing company before it goes public becomes a headline that kills the deal."
+    },
+    {
+      "id": "d3",
+      "decision_number": 3,
+      "situation": "To justify the $47 billion valuation, your growth team proposes opening 200 new locations in 12 months — doubling your footprint. Each location requires signing a 15-year lease averaging $8 million upfront commitment.",
+      "context": "More locations drives revenue but locks you into $1.6 billion in new lease obligations — commitments that don't disappear even if the economy turns.",
+      "concept_being_taught": "unit_economics",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Open all 200 locations — the growth story needs to be real for the IPO",
+          "short_label": "200 new locations",
+          "outcome_label": "BOLD",
+          "consequence_story": "The construction teams fan out across 40 cities. 200 leases get signed. Your office count jumps from 280 to 480. Revenue climbs — but so do your lease obligations. You've just committed WeWork to $1.6 billion in future rent payments that must be paid whether those offices fill up or not.",
+          "plain_english_explanation": "200 new locations means $1.6 billion in 15-year lease commitments. If each location runs at 80% occupancy, you earn $6.5M/year per location. At 50% occupancy — what happens in a recession — you earn $4M and still owe $8M. You've built a system where bad luck is catastrophic.",
+          "concept_explained": "Commitments do not shrink when revenue does. Long-term lease obligations are one-way bets on the future — and in WeWork's case, the future bet against them.",
+          "financial_impact": {
+            "cash_change": -800000000,
+            "monthly_burn_change": 20000000,
+            "monthly_revenue_change": 8000000,
+            "subscriber_change": 40,
+            "health_score_change": -8,
+            "runway_change": -6
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "WeWork signed long-term leases committing to $47B in future obligations while its total revenues were only $1.8B/year. This mismatch was the core structural flaw exposed in the S-1."
+        },
+        {
+          "id": "b",
+          "text": "Open 60 locations — grow selectively in markets where existing units are fully profitable",
+          "short_label": "Selective growth",
+          "outcome_label": "SMART",
+          "consequence_story": "Sixty locations instead of two hundred. Each one is chosen because the local market data says it will hit 85%+ occupancy within 6 months. Growth is slower. The press says you've lost your edge. But each new location actually makes money — and that changes everything about your unit economics story.",
+          "plain_english_explanation": "60 profitable locations at $6.5M annual revenue each equals $390M in new annual revenue. 200 marginal locations at mixed occupancy equals more burn. When your unit economics are positive, more units means more profit. When they're negative, more units means a faster death.",
+          "concept_explained": "Unit economics ask one question: does each individual unit make money? If yes, grow fast. If not, fix the unit before you add more.",
+          "financial_impact": {
+            "cash_change": -240000000,
+            "monthly_burn_change": -8000000,
+            "monthly_revenue_change": 12000000,
+            "subscriber_change": 20,
+            "health_score_change": 7,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Pause all expansion — fix profitability in existing locations before signing new leases",
+          "short_label": "Pause expansion",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "The expansion pipeline freezes. For six months, you focus entirely on getting your 280 existing locations to break-even occupancy. Investors are confused. The growth narrative cracks. But operating costs drop by $15 million a month and your existing locations start to actually generate cash.",
+          "plain_english_explanation": "Pausing expansion saves $400M+ in new lease commitments. Your 280 existing locations at 85% occupancy generate $1.8B/year in revenue — enough to cover their costs. No expansion means no growth story for investors, but it means you survive.",
+          "concept_explained": "Sometimes the most valuable thing you can do is stop adding unprofitable units and make the ones you have work first.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": -15000000,
+            "monthly_revenue_change": 6000000,
+            "subscriber_change": 0,
+            "health_score_change": 3,
+            "runway_change": 5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Announce 500 new locations — go all-in to build the IPO narrative",
+          "short_label": "Announce 500 locations",
+          "outcome_label": "RISKY",
+          "consequence_story": "You announce the most ambitious real estate expansion in history. 500 new locations. Every finance blog runs the story. WeWork's valuation surges on secondary markets. Then your CFO quietly runs the numbers: $4 billion in new lease commitments, $220 million more in monthly operating expenses once fully ramped. You have $3 billion in the bank.",
+          "plain_english_explanation": "500 locations means $4B in new lease commitments against $3B in cash. Before a single new location opens, you've committed to more than you have. This is how companies go bankrupt while looking healthy.",
+          "concept_explained": "Commitments made today create obligations that outlast the cash that created them. When commitments exceed cash, solvency becomes a mathematical question with an ugly answer.",
+          "financial_impact": {
+            "cash_change": -400000000,
+            "monthly_burn_change": 30000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 25,
+            "health_score_change": -14,
+            "runway_change": -8
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Unit economics determine whether growth is an asset or a liability. If each new location loses money, doubling your locations doubles your losses — not your value."
+    },
+    {
+      "id": "d4",
+      "decision_number": 4,
+      "situation": "It's July 2019. Your IPO bankers deliver the draft S-1 prospectus. The filing shows WeWork lost $1.9 billion in the first half of 2019. When this goes public, investors will see a company losing $3.8 billion per year at current run rate.",
+      "context": "You can delay the IPO to build a stronger financial story, or proceed now while markets are hot — but the losses are what they are.",
+      "concept_being_taught": "ipo_timing",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Proceed with the IPO immediately — markets are hot and the momentum is now",
+          "short_label": "IPO now",
+          "outcome_label": "RISKY",
+          "consequence_story": "The S-1 drops on August 14, 2019. Within 72 hours, analysts have published 43 separate critiques of WeWork's governance, burn rate, and valuation. Institutional investors — the people who must buy IPO shares — start calling their bankers: pass. Two weeks after filing, your $47B target becomes a whispered $20B.",
+          "plain_english_explanation": "When you IPO at a $47B valuation with $3.8B annual losses, investors do a simple calculation: at current burn, you need 12 years of zero growth just to break even. No institutional investor will buy that story. The IPO does not just fail — it announces to the world that your emperor has no clothes.",
+          "concept_explained": "Timing an IPO matters as much as the company's actual performance. Filing when your losses are accelerating invites a very public rejection that damages everything — valuation, employee morale, customer confidence.",
+          "financial_impact": {
+            "cash_change": -200000000,
+            "monthly_burn_change": 10000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -9,
+            "runway_change": -3
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "WeWork filed its S-1 on August 14, 2019. The filing revealed $1.9B in losses in H1 2019 and sparked immediate, devastating investor criticism. The IPO was withdrawn on September 30, 2019."
+        },
+        {
+          "id": "b",
+          "text": "Delay the IPO 12 months — cut costs, show a path to profitability, then file again",
+          "short_label": "Delay 12 months",
+          "outcome_label": "SMART",
+          "consequence_story": "You call your bankers: we're pushing the IPO. The reaction is silence, then relief — even the bankers know the numbers are not there. You spend the next 12 months ruthlessly cutting costs. Monthly burn drops. Revenue per location improves. When you eventually file, the story is different: losses narrowing, path to profitability visible.",
+          "plain_english_explanation": "Delaying 12 months to improve your financial story is painful but survivable. You preserve the IPO option. Filing now with the current numbers will kill the IPO entirely and hand your competitors your playbook.",
+          "concept_explained": "IPO timing is about showing investors a credible path to profit, not just impressive growth. Losses that are narrowing are a feature. Losses that are accelerating are disqualifying.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": 8000000,
+            "subscriber_change": 10,
+            "health_score_change": 8,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Pursue a private capital raise instead — avoid public market scrutiny entirely",
+          "short_label": "Stay private",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You pull the IPO and quietly approach sovereign wealth funds and private equity. Three funds offer bridge financing: $1.5 billion at a $22B valuation — a 53% haircut from your $47B target. It stings. But you're still alive, still private, and you've bought 12 more months to fix the business.",
+          "plain_english_explanation": "Private investors gave you $1.5B at $22B — you lost $25B in paper value but kept the company alive. IPO failure would have been worse: you'd have lost the same valuation AND faced a stock price death spiral in public markets.",
+          "concept_explained": "Sometimes the best financing option is the one that keeps the worst-case scenario private. A painful private round is survivable. A public failure is not.",
+          "financial_impact": {
+            "cash_change": 1500000000,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 0,
+            "health_score_change": 2,
+            "runway_change": 6
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Rush the IPO at a reduced $20B valuation — lock in whatever you can before sentiment turns",
+          "short_label": "IPO at $20B",
+          "outcome_label": "BOLD",
+          "consequence_story": "You call your bankers: price us at $20 billion. Half of what you wanted, but the deal gets done. Investors are skeptical but willing. The IPO raises $3 billion. Your burn rate stays high. But you have cash — and you've avoided the catastrophic failure of a withdrawn IPO.",
+          "plain_english_explanation": "Pricing at $20B instead of $47B means raising half as much money, but successfully completing the IPO. The $27B you lost in valuation was always paper value. The $3B you raise is real cash that keeps the company alive.",
+          "concept_explained": "A completed IPO at a lower valuation is better than a failed IPO at a higher one. Paper valuation means nothing — cash in the bank means survival.",
+          "financial_impact": {
+            "cash_change": 3000000000,
+            "monthly_burn_change": -5000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 0,
+            "health_score_change": 1,
+            "runway_change": 5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "IPO timing is not about when the market is hot — it's about when your financial story is credible. Filing with accelerating losses is not just bad timing, it's self-destruction in public."
+    },
+    {
+      "id": "d5",
+      "decision_number": 5,
+      "situation": "The S-1 is public and it's a disaster. Institutional investors are calling their bankers to pass. The IPO target has collapsed from $47B to $15B. Your employees, who hold options priced at $47B, are watching their life savings evaporate.",
+      "context": "You must respond publicly — every hour of silence is another hour for the narrative to calcify against you.",
+      "concept_being_taught": "investor_relations",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Defend the $47B valuation publicly — call the critics wrong and push forward with the IPO",
+          "short_label": "Defend the valuation",
+          "outcome_label": "RISKY",
+          "consequence_story": "Your PR team issues a statement defending WeWork's value. Neumann does interviews. The pushback from analysts is immediate and merciless: they have the S-1 numbers, you have talking points. Within a week, the two banks leading your IPO privately tell your board that demand is not there. The IPO is dead.",
+          "plain_english_explanation": "Defending an indefensible valuation against critics with data is a losing fight. Once institutional investors have seen your S-1 losses and decided not to buy, no press release changes their model.",
+          "concept_explained": "Investor confidence is earned through consistent honesty about performance, not defended through PR. When the numbers tell one story and the CEO tells another, investors believe the numbers.",
+          "financial_impact": {
+            "cash_change": -150000000,
+            "monthly_burn_change": 8000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -9,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Neumann made multiple public statements defending WeWork's valuation and the IPO plan even as investor demand collapsed in September 2019. The IPO was formally withdrawn on September 30."
+        },
+        {
+          "id": "b",
+          "text": "Acknowledge governance concerns, announce restructured compensation, withdraw IPO voluntarily",
+          "short_label": "Acknowledge and withdraw",
+          "outcome_label": "SMART",
+          "consequence_story": "In a measured statement, you acknowledge investors' concerns, announce that Neumann has voluntarily restructured his equity arrangements, and withdraw the IPO to strengthen the business before returning to markets. The stock price on secondary markets drops 20% — but the catastrophic alternative is avoided.",
+          "plain_english_explanation": "A voluntary IPO withdrawal with governance reforms costs you 20-30% in short-term valuation. A forced withdrawal after an investor rebellion costs you 60-70%. Choosing your moment to retreat is not failure — it's strategy.",
+          "concept_explained": "Proactive disclosure of problems, paired with concrete remediation steps, is how companies preserve investor trust during a crisis. Waiting to be forced into admission always costs more.",
+          "financial_impact": {
+            "cash_change": -80000000,
+            "monthly_burn_change": -15000000,
+            "monthly_revenue_change": 4000000,
+            "subscriber_change": 5,
+            "health_score_change": 7,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Quietly withdraw the IPO, say nothing publicly, hope it blows over",
+          "short_label": "Silent withdrawal",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "No statement. No press conference. Just a quiet SEC filing that the IPO is postponed. The press writes 40 stories about why WeWork went silent. The silence is treated as confession. Employees check their options pricing daily. The story does not blow over — it metastasizes.",
+          "plain_english_explanation": "Silence during a public crisis is never neutral — it's read as guilt. When investors, employees, and customers cannot get information from you, they get it from journalists who have an incentive to find the worst version of the story.",
+          "concept_explained": "In a crisis, information vacuums always fill with the worst possible narrative. Silence is not safety — it is an invitation for others to define you.",
+          "financial_impact": {
+            "cash_change": -50000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -10,
+            "health_score_change": -3,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Announce a radically restructured company: spin off non-core businesses, cut 30% of staff, price IPO at $8B",
+          "short_label": "Radical restructure",
+          "outcome_label": "BOLD",
+          "consequence_story": "You announce the biggest restructuring in WeWork's history on the same day you withdraw the IPO. Non-core businesses get sold. 4,000 employees are cut. The IPO gets repriced at $8 billion. It's not the dream that was sold. But it's real.",
+          "plain_english_explanation": "Selling non-core businesses raises $300-500M. Cutting 4,000 employees saves $40M/month in burn. Repricing the IPO at $8B means raising $2B instead of $6B. But $2B in real cash beats $6B in failed promises.",
+          "concept_explained": "Restructuring is painful but it resets the cost base and the investor narrative simultaneously. Companies that restructure early and decisively survive. Companies that restructure under duress rarely do.",
+          "financial_impact": {
+            "cash_change": 300000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": -5,
+            "health_score_change": 3,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "When the market tells you your valuation is wrong, the choice is not whether to accept that reality — it's whether to accept it proactively or be forced to."
+    },
+    {
+      "id": "d6",
+      "decision_number": 6,
+      "situation": "SoftBank, seeing the IPO collapse, approaches your board with a rescue offer: $9.5 billion in new investment, but at a $7.5 billion valuation — a collapse from $47B. The terms require Neumann to leave, give SoftBank majority control, and require WeWork to cut 30% of staff.",
+      "context": "This rescue saves the company but at a devastating price — you lose control, employees lose jobs, and the $47B story dies forever.",
+      "concept_being_taught": "dilution",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Reject SoftBank's rescue — negotiate for better terms before accepting anything",
+          "short_label": "Reject, negotiate",
+          "outcome_label": "RISKY",
+          "consequence_story": "You push back on SoftBank's rescue terms. A month of negotiations follows. SoftBank holds firm: $7.5B or nothing. Meanwhile, WeWork misses payroll twice. Vendors start demanding payment in advance. The negotiation buys no better terms — it just burns more cash.",
+          "plain_english_explanation": "When you have limited cash and $130M monthly burn, spending one month negotiating burns $130M and changes nothing. Your leverage is not the terms — it's whether you have enough cash to wait. You do not.",
+          "concept_explained": "Leverage in a negotiation comes from alternatives. When you're running out of cash, your alternative to accepting a bad deal is bankruptcy. That means SoftBank has all the leverage.",
+          "financial_impact": {
+            "cash_change": -130000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -9,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Neumann initially resisted SoftBank's rescue terms and attempted to negotiate better conditions. The delay burned additional cash and improved no terms."
+        },
+        {
+          "id": "b",
+          "text": "Accept SoftBank's rescue immediately — take the $9.5B and restructure decisively",
+          "short_label": "Accept rescue",
+          "outcome_label": "SMART",
+          "consequence_story": "You accept. $9.5 billion lands. Neumann exits with a settlement. 4,000 employees are cut. It's brutal. But WeWork is now funded through profitability — and the lease obligations that seemed insurmountable now have a real capital base behind them.",
+          "plain_english_explanation": "Accepting the rescue at $7.5B valuation means losing $39.5B in paper value. But paper value is not real money. The $9.5B in rescue capital is real money. Real money pays leases. Paper valuation does not.",
+          "concept_explained": "Dilution is painful — your ownership shrinks and your valuation resets. But a smaller percentage of a surviving company is worth more than a large percentage of a bankrupt one.",
+          "financial_impact": {
+            "cash_change": 9500000000,
+            "monthly_burn_change": -40000000,
+            "monthly_revenue_change": 10000000,
+            "subscriber_change": -20,
+            "health_score_change": 8,
+            "runway_change": 15
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Accept the rescue but sell assets first to reduce the rescue amount needed",
+          "short_label": "Self-directed rescue",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Before SoftBank's wire clears, you sell non-core assets: $400M from the school, the gym, the housing brand. You cut costs by $30M/month. The rescue amount needed drops. SoftBank agrees. You've reduced your dilution and shown you can operate without a safety net.",
+          "plain_english_explanation": "Selling assets first reduces the rescue amount and preserves more equity. Every dollar you raise through asset sales is a dollar SoftBank does not own. Asset sales of $400M reduce SoftBank's ownership stake by roughly 4%.",
+          "concept_explained": "Asset sales can reduce dilution by reducing the amount of outside capital needed. When facing rescue financing, every dollar you can generate internally is a dollar you do not have to give away.",
+          "financial_impact": {
+            "cash_change": 400000000,
+            "monthly_burn_change": -25000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": -5,
+            "health_score_change": 5,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "File for bankruptcy protection — use the restructuring process to renegotiate all lease obligations",
+          "short_label": "File for bankruptcy",
+          "outcome_label": "BOLD",
+          "consequence_story": "You file Chapter 11. The media explodes. Tenants panic. But in bankruptcy court, your lawyers renegotiate 350 leases — reducing total obligations by $15 billion. Three years later, a leaner WeWork emerges. The SoftBank deal was better. But bankruptcy was survivable.",
+          "plain_english_explanation": "Chapter 11 bankruptcy is restructuring, not liquidation. It lets you shed contracts you cannot fulfill — like those 15-year leases — while continuing to operate. WeWork eventually did file for bankruptcy in 2023 and used exactly this mechanism.",
+          "concept_explained": "Chapter 11 bankruptcy is a legal tool to restructure obligations, not an ending. Companies that use it correctly emerge smaller but solvent. Companies that avoid it until cash is truly gone do not get that option.",
+          "financial_impact": {
+            "cash_change": 200000000,
+            "monthly_burn_change": -35000000,
+            "monthly_revenue_change": 8000000,
+            "subscriber_change": -30,
+            "health_score_change": 3,
+            "runway_change": 6
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Dilution is the price of survival. A smaller piece of a living company is always worth more than a full piece of a dead one."
+    },
+    {
+      "id": "d7",
+      "decision_number": 7,
+      "situation": "The board has voted to remove Adam Neumann as CEO. Neumann refuses to leave voluntarily and is threatening legal action. His departure package is being negotiated at $1.7 billion in stock.",
+      "context": "Every day Neumann fights to stay costs the company cash, morale, and credibility — but his departure package is itself enormous.",
+      "concept_being_taught": "leadership_cost",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Pay Neumann the full $1.7B exit package to end the crisis immediately",
+          "short_label": "Pay full exit",
+          "outcome_label": "BOLD",
+          "consequence_story": "The check is written — $1.7 billion in stock to make Neumann go away. He signs a non-disparagement agreement and leaves the board. WeWork's HQ feels different without him. But $1.7 billion is $1.7 billion — cash the company cannot use for operations.",
+          "plain_english_explanation": "Paying $1.7B to exit one CEO is an extreme cost. But the alternative — a legal fight with the founder during a company crisis — can cost more in reputational damage and legal fees. It's the most expensive management transition in startup history.",
+          "concept_explained": "Exit packages for founders who must be removed are part of the cost of governance failures. Every dollar paid to exit a bad leader is a dollar not spent on the business — but sometimes it's the cheapest path forward.",
+          "financial_impact": {
+            "cash_change": -400000000,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 0,
+            "health_score_change": -5,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "SoftBank paid Neumann approximately $1.7B in stock and other payments to exit WeWork after his removal as CEO in October 2019."
+        },
+        {
+          "id": "b",
+          "text": "Negotiate the exit package down to $200M cash and no ongoing equity — end it cleanly",
+          "short_label": "Negotiate down",
+          "outcome_label": "SMART",
+          "consequence_story": "Your lawyers spend six weeks negotiating. Neumann resists, but the board is united. Eventually, he accepts $200M cash and walks. He loses his super-voting shares and board seat. WeWork saves $1.5B in what would have been dead-weight equity.",
+          "plain_english_explanation": "Saving $1.5B in exit costs by negotiating down is $1.5B WeWork can use to fund operations, pay down lease obligations, or invest in product. That's more than a year of reduced burn. The legal battle cost $20M. Net savings: $1.48 billion.",
+          "concept_explained": "Negotiation in a crisis requires patience and leverage. The board's leverage was: Neumann's governance violations gave WeWork grounds to void some of his equity arrangements. Using that leverage saved $1.5B.",
+          "financial_impact": {
+            "cash_change": -200000000,
+            "monthly_burn_change": -15000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 5,
+            "health_score_change": 8,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Contest Neumann's equity claims legally — his governance violations may void his package",
+          "short_label": "Legal challenge",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Your lawyers file claims asserting that Neumann's equity was partially voidable due to governance violations. Eighteen months of litigation ends with Neumann receiving $500M instead of $1.7B. But eighteen months of legal battle kept WeWork's leadership distracted from the business.",
+          "plain_english_explanation": "Legal challenges to founder equity can work but take time. 18 months of distraction cost WeWork more in opportunities not taken than the $1.2B saved. The calculus on legal fights is always: cost of fight versus cost of settlement versus opportunity cost of distraction.",
+          "concept_explained": "Legal fights have three costs: direct legal fees, settlement amounts, and opportunity costs from management distraction. All three must be factored into the decision.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": -8000000,
+            "monthly_revenue_change": 2000000,
+            "subscriber_change": 0,
+            "health_score_change": 2,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Offer Neumann an advisory role — retain his network and avoid the exit payment entirely",
+          "short_label": "Advisory role",
+          "outcome_label": "RISKY",
+          "consequence_story": "You offer Neumann a Strategic Advisor title with no operational authority. He appears to accept. Three months later, he's still in the building, still talking to employees, still undermining the new CEO's authority. The advisory role becomes the worst of all worlds: you kept him without controlling him.",
+          "plain_english_explanation": "Keeping a removed CEO in any capacity creates dual power centers. Employees do not know who to listen to. Decisions get second-guessed. The new CEO cannot build authority. The cost is not paid in dollars — it's paid in organizational dysfunction that kills execution.",
+          "concept_explained": "Clean breaks with removed leaders are always better than partial separations. Keeping a fired CEO as an advisor means you've fired them only on paper.",
+          "financial_impact": {
+            "cash_change": -50000000,
+            "monthly_burn_change": 3000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -8,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Exit costs for failed founders are real costs. Every dollar paid to remove a bad leader is a dollar not invested in the business. Negotiate — or use legal leverage — before writing the check."
+    },
+    {
+      "id": "d8",
+      "decision_number": 8,
+      "situation": "It's December 2019. New CEO Sandeep Mathrani has just taken over. WeWork has $6 billion in the bank from SoftBank's rescue. Monthly burn is $95 million. Revenue is $100 million per month — nearly break-even. The question now: restructure aggressively and achieve true profitability, or maintain scale and hope revenue catches up.",
+      "context": "With $6B in the bank and nearly break-even operations, WeWork has a real chance at survival — if leadership makes the right structural choices now.",
+      "concept_being_taught": "cash_flow",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Maintain current scale — revenue is almost covering burn, wait for the business to turn profitable organically",
+          "short_label": "Wait it out",
+          "outcome_label": "RISKY",
+          "consequence_story": "You hold the course. Revenue nudges up slowly. But then COVID hits in March 2020. Office tenants cancel en masse. WeWork's revenue drops 40% overnight. Your burn is still $95M/month. The $6B in the bank starts to shrink fast. The same structural problems that caused the 2019 crisis are still there — you just did not fix them in time.",
+          "plain_english_explanation": "At $95M burn and $100M revenue you're nearly break-even — but nearly means you're still spending $95M per month. When revenue drops 40% from COVID, you're suddenly spending $95M to generate $60M. That's a $35M monthly loss. At that rate, $6B lasts 17 months. Then it's over.",
+          "concept_explained": "Cash flow is the direction your cash is moving. Nearly break-even is not break-even. When you're still net-negative, any external shock can restart a cash crisis.",
+          "financial_impact": {
+            "cash_change": -200000000,
+            "monthly_burn_change": 8000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -10,
+            "health_score_change": -9,
+            "runway_change": -3
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "WeWork maintained its scale through 2020 and was severely impacted by COVID. The company filed for bankruptcy in November 2023 after years of continued losses."
+        },
+        {
+          "id": "b",
+          "text": "Cut to profitability aggressively — close unprofitable locations, reduce headcount, target break-even in 6 months",
+          "short_label": "Cut to profit",
+          "outcome_label": "SMART",
+          "consequence_story": "You close 80 underperforming locations. 4,000 more employees are cut. Monthly burn drops significantly. Revenue drops temporarily from location closures but stabilizes. For the first time in WeWork's history, the company is cash-flow positive — spending less than it earns. COVID hits, but at reduced burn and stable revenue, WeWork absorbs the shock.",
+          "plain_english_explanation": "Cutting burn to $55M/month creates $40M+ in breathing room. When COVID cuts revenue by 25%, the company still runs on surplus. The $6B in the bank is now a true fortress — not a countdown timer.",
+          "concept_explained": "Cash flow positivity means revenue exceeds burn. It is the only true financial safety net — because unlike cash reserves, it does not run out.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": -25000000,
+            "monthly_revenue_change": 15000000,
+            "subscriber_change": -20,
+            "health_score_change": 14,
+            "runway_change": 20
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Pivot to enterprise customers only — drop consumer members, focus on large corporate tenants",
+          "short_label": "Enterprise pivot",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You exit the consumer market. Enterprise clients — corporate tenants signing 2-year contracts instead of month-to-month — become WeWork's only focus. Revenue predictability improves dramatically. Burn drops by $25M/month as you eliminate consumer-facing costs. The business looks nothing like the original vision. But it's alive.",
+          "plain_english_explanation": "Enterprise clients sign long-term contracts at higher rates. Monthly revenue is smaller but far more predictable. Predictable revenue allows you to match burn to income with confidence. The consumer pivot failed — the enterprise business might not.",
+          "concept_explained": "Revenue predictability is as valuable as revenue magnitude. A smaller, more predictable revenue stream allows better burn management than a large, volatile one.",
+          "financial_impact": {
+            "cash_change": -150000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": 8000000,
+            "subscriber_change": -30,
+            "health_score_change": 6,
+            "runway_change": 10
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Use SoftBank's capital to acquire distressed commercial real estate — bet the balance sheet on property ownership",
+          "short_label": "Acquire real estate",
+          "outcome_label": "BOLD",
+          "consequence_story": "You spend $3B buying commercial real estate at post-COVID distressed prices. Now WeWork owns assets instead of just leasing them. But the acquisition costs $50M/month to service in debt payments. And COVID delays the recovery. The $6B you had is now $3B in property and $3B in cash — and the cash is running out fast.",
+          "plain_english_explanation": "Converting cash to real estate assets changes your balance sheet but not your cash flow. You still burn $95M/month. The property will not generate enough income for years. You've transformed a cash flow problem into a solvency problem.",
+          "concept_explained": "Assets that do not generate cash flow do not solve a cash flow crisis. Converting operating cash to illiquid assets during a burn crisis is how companies turn survivable situations into fatal ones.",
+          "financial_impact": {
+            "cash_change": -3000000000,
+            "monthly_burn_change": 15000000,
+            "monthly_revenue_change": 5000000,
+            "subscriber_change": 0,
+            "health_score_change": -10,
+            "runway_change": -8
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Cash flow positivity — spending less than you earn — is the only permanent solution to a burn crisis. Cash reserves are a timer. Positive cash flow is a foundation."
+    }
+  ],
+  "endings": {
+    "bankrupt": {
+      "trigger_condition": "cash <= 0 or health_score <= 10",
+      "story": "WeWork's $47 billion dream ends the same way the real company did — with a bankruptcy filing. The leases that fueled the empire become the chains that destroy it. 15,000 employees scatter. 500 locations go dark. Another startup built on a story that was never true.",
+      "epitaph": "WeWork raised $12 billion and burned through it proving that a real estate company with an app is still a real estate company.",
+      "lesson": "Taking money at inflated valuations creates expectations that destroy companies. The higher the number, the further the fall."
+    },
+    "saved": {
+      "trigger_condition": "health_score >= 60 AND runway_months >= 3 after decision 8",
+      "story": "You made the decisions the real WeWork team could not bring themselves to make. The governance is clean. The growth is measured. The valuation reflects reality instead of hope. WeWork is not a $47 billion unicorn — but it's profitable, stable, and built on a foundation that can last.",
+      "epitaph": null,
+      "lesson": "Realistic valuations, clean governance, and measured growth are not boring — they are how companies survive long enough to become what they promised to be."
+    },
+    "struggling": {
+      "trigger_condition": "all 8 decisions complete but health_score < 60",
+      "story": "WeWork is alive, barely. The governance problems are partly fixed. The burn is partly controlled. You avoided the worst outcomes but never quite found solid ground. The company breathes — but whether it grows is another question.",
+      "epitaph": null,
+      "lesson": "Half-measures in a crisis keep a company technically alive but prevent it from truly recovering. Every unresolved problem compounds."
+    }
+  },
+  "real_outcome": "The IPO was pulled. WeWork's valuation collapsed from ~$47B to roughly $2.9B in weeks. Adam Neumann exited with a golden parachute while employees and investors absorbed the reset.",
+  "concepts_taught": [
+    "valuation",
+    "unit_economics",
+    "burn_rate",
+    "runway",
+    "governance",
+    "dilution",
+    "fundraising",
+    "cash_flow"
+  ],
+  "what_you_learned_summary": "Paper valuations are not cash. When perception outruns fundamentals, every spend, every hire, and every lease has to justify a number that the public markets may refuse to believe."
+}

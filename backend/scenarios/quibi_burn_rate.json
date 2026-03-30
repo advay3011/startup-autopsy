@@ -1,0 +1,754 @@
+{
+  "id": "quibi_burn_rate",
+  "company": "Quibi",
+  "concept": "Burn Rate & Runway",
+  "concept_description": "How fast are you spending money and when will you run out?",
+  "concept_analogy": "Think of your cash as a bucket with a hole in it. The bigger the hole, the faster it empties. Runway is how long until the bucket is empty.",
+  "industry": "Media/Entertainment",
+  "emoji": "📺",
+  "tagline": "Burned $1.75B in 6 months",
+  "difficulty": "beginner",
+  "opening_story": "It's January 2020. You just raised $1.75 billion from Hollywood legends and top investors. Everyone believes in you. Your app launches in 3 months. What could go wrong?",
+  "initial_financials": {
+    "cash": 1750000000,
+    "monthly_burn": 150000000,
+    "monthly_revenue": 0,
+    "subscribers": 0,
+    "runway_months": 11,
+    "health_score": 72,
+    "health_breakdown": {
+      "burn_rate_health": 60,
+      "revenue_growth": 20,
+      "unit_economics": 50,
+      "cash_flow": 65,
+      "investor_confidence": 85
+    }
+  },
+  "decisions": [
+    {
+      "id": "d1",
+      "decision_number": 1,
+      "situation": "Your CMO just walked into your office with a marketing plan. To dominate launch day, they want a $300 million campaign — Super Bowl ads, billboards in every major city, celebrity endorsements.",
+      "context": "You need subscribers fast. But marketing costs money — money you need to last.",
+      "concept_being_taught": "burn_rate",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Approve the full $300M marketing budget",
+          "short_label": "Go big",
+          "outcome_label": "RISKY",
+          "consequence_story": "You went all in. Billboards everywhere. Super Bowl ads. The whole world knows about Quibi. But at what cost?",
+          "plain_english_explanation": "You spent $300M to get 500,000 subscribers. That means you paid $600 for each subscriber. But each subscriber only pays $5/month. It would take 10 years to make that money back — and you only have 11 months of cash left.",
+          "concept_explained": "This is called Customer Acquisition Cost (CAC). You spent $600 to get a customer worth $5/month. That math never works.",
+          "financial_impact": {
+            "cash_change": -300000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 2500000,
+            "subscriber_change": 500000,
+            "health_score_change": -12,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi spent $63M on marketing in Q1 2020 alone"
+        },
+        {
+          "id": "b",
+          "text": "Approve $100M — enough to launch but preserve cash",
+          "short_label": "Be smart",
+          "outcome_label": "SMART",
+          "consequence_story": "Conservative but wise. You get the word out without lighting money on fire.",
+          "plain_english_explanation": "You spent $100M to get 200,000 subscribers. That's $500 per subscriber — still expensive, but you saved $200M in cash. That's 1 extra month of runway.",
+          "concept_explained": "Preserving cash extends your runway — the time you have to figure things out before you run out of money.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 1000000,
+            "subscriber_change": 200000,
+            "health_score_change": 3,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "The real Quibi chose the aggressive path instead"
+        },
+        {
+          "id": "c",
+          "text": "Spend only $30M — organic growth first",
+          "short_label": "Stay lean",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You barely made a ripple. Nobody knows Quibi exists.",
+          "plain_english_explanation": "You saved cash but nobody downloaded the app. Revenue is almost zero. Investors are asking questions. Sometimes being too conservative is just as dangerous as being too aggressive.",
+          "concept_explained": "Runway means nothing if you never build the business. You need to spend enough to grow — the trick is finding the right balance.",
+          "financial_impact": {
+            "cash_change": -30000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": 40000,
+            "health_score_change": -8,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Delay launch 6 months and rethink everything",
+          "short_label": "Hit pause",
+          "outcome_label": "BOLD",
+          "consequence_story": "You pump the brakes. Investors are confused. Your team is frustrated. But you have time to think.",
+          "plain_english_explanation": "You saved $150M by delaying — but you're still burning money every month with no revenue. Delay only works if you use the time to fix something real.",
+          "concept_explained": "Burn rate doesn't stop when you pause. You still pay salaries, rent, and servers every month whether you're launching or not.",
+          "financial_impact": {
+            "cash_change": -150000000,
+            "monthly_burn_change": -10000000,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -5,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Burn rate is how fast your money disappears every month. The lower your burn rate relative to your cash, the longer your runway — the time you have to build something that works."
+    },
+    {
+      "id": "d2",
+      "decision_number": 2,
+      "situation": "Your content team comes to you with a deal sheet. A-list celebrities — Steven Spielberg, Chrissy Teigen, LeBron James — will only sign if you commit $1 billion to original content. Walk away and you launch with unknowns.",
+      "context": "Quibi's whole pitch to investors was 'premium content in 10-minute bites.' Without big names, does the app have a reason to exist?",
+      "concept_being_taught": "burn_rate",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Sign the full $1B in celebrity content deals",
+          "short_label": "All-in on stars",
+          "outcome_label": "RISKY",
+          "consequence_story": "Spielberg. LeBron. The press goes crazy. But you just committed two-thirds of your remaining cash to content — before a single subscriber has paid you a dollar.",
+          "plain_english_explanation": "You locked in $1B in content. But you're paying for it upfront while earning almost nothing yet. Your burn rate just jumped to $230M/month. You now have less than 7 months of cash left.",
+          "concept_explained": "Burn rate includes everything you're committed to spending — not just what you spend today. Signing a $1B deal means that money is already gone even if you haven't written the check yet.",
+          "financial_impact": {
+            "cash_change": -400000000,
+            "monthly_burn_change": 80000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": 400000,
+            "health_score_change": -18,
+            "runway_change": -3
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi committed over $1B to original content deals before launch"
+        },
+        {
+          "id": "b",
+          "text": "Sign $300M in targeted deals with 20 top creators",
+          "short_label": "Curated bets",
+          "outcome_label": "SMART",
+          "consequence_story": "You pass on Spielberg. The room goes quiet. Your content team thinks you've lost your nerve. But 60 days later, your 20 targeted shows launch — and one of them goes viral without a single Super Bowl ad.",
+          "plain_english_explanation": "You spent $300M on content — a third of what the celebrity route costs. You still have great shows, but your monthly burn only goes up $15M. That's 3 extra months of runway compared to the big deal.",
+          "concept_explained": "Runway = cash divided by monthly burn. Every dollar you cut from your burn rate is another day you have to figure out the business.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": 15000000,
+            "monthly_revenue_change": 1500000,
+            "subscriber_change": 180000,
+            "health_score_change": 4,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "The real Quibi committed 3x more to content than needed to launch"
+        },
+        {
+          "id": "c",
+          "text": "Sign $80M with emerging creators only",
+          "short_label": "Bet on unknowns",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You preserve cash but gamble that audiences will care about creators they've never heard of.",
+          "plain_english_explanation": "Your burn rate barely moves. But without marquee names, fewer people download the app. You save cash but subscriber growth is painfully slow — and slow growth kills startups too.",
+          "concept_explained": "Low burn rate is great. But zero revenue because nobody subscribes is just a slower death. You need both — control your burn AND grow.",
+          "financial_impact": {
+            "cash_change": -30000000,
+            "monthly_burn_change": 3000000,
+            "monthly_revenue_change": 400000,
+            "subscriber_change": 50000,
+            "health_score_change": -5,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "License existing TV content from studios instead",
+          "short_label": "Repackage hits",
+          "outcome_label": "BOLD",
+          "consequence_story": "You pivot the content strategy completely — cut existing shows into 10-minute episodes. It's cheap. But is it what Quibi promised?",
+          "plain_english_explanation": "You spend $120M licensing instead of $1B creating. Huge cash savings. But investors backed you to make original content — this might spook them. Investor confidence drops but your runway grows by 5 months.",
+          "concept_explained": "Sometimes the boldest move is redefining your product to match your budget. The question is whether your investors and customers will follow you.",
+          "financial_impact": {
+            "cash_change": -120000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 1200000,
+            "subscriber_change": 120000,
+            "health_score_change": -2,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Commitments are burn rate too — signing a $1B content deal means that money is already gone, even if the checks arrive in installments. Always calculate the full cost of every commitment, not just what you pay today."
+    },
+    {
+      "id": "d3",
+      "decision_number": 3,
+      "situation": "It's 60 days before launch. Your VP of Engineering says you need 400 engineers, designers, and operations staff to run a world-class streaming platform. HR says they can hire 400 people in 6 weeks.",
+      "context": "More people means faster product improvements. But each engineer costs $200,000/year — that's $16,000/month per person. 400 people = $6.4M/month in salaries alone, before benefits.",
+      "concept_being_taught": "burn_rate",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Hire 200+ people — build the full team now",
+          "short_label": "Full staff up",
+          "outcome_label": "RISKY",
+          "consequence_story": "Offices fill up. Slack channels explode. You look like a real company. But 200 salaries plus benefits hits your bank account every two weeks — forever.",
+          "plain_english_explanation": "200+ people costs $4M/month in salaries and benefits. That's on top of everything else. Your total monthly burn just crossed $154M. Each month, you're one step closer to zero.",
+          "concept_explained": "Fixed costs are the most dangerous part of burn rate — they don't go away if your revenue misses. Salaries hit whether you have 100 subscribers or 10 million.",
+          "financial_impact": {
+            "cash_change": -20000000,
+            "monthly_burn_change": 8000000,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 50000,
+            "health_score_change": -10,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi scaled to over 200 employees at launch"
+        },
+        {
+          "id": "b",
+          "text": "Hire 150 people — focused engineering and content teams",
+          "short_label": "Lean and focused",
+          "outcome_label": "SMART",
+          "consequence_story": "You turn down 250 candidates and your VP of Engineering threatens to quit if you don't hire more. You hold firm. Three months later the team ships faster than the 400-person version would have — because everyone on it actually matters.",
+          "plain_english_explanation": "150 people costs $3M/month. That's $5M/month less than the full hire — which means 1-2 extra months of runway. With fewer people, every person matters more, and you ship faster with less coordination overhead.",
+          "concept_explained": "The right team size isn't the biggest team — it's the most efficient team. Fixed costs compound every month, so every hire you avoid extends your runway.",
+          "financial_impact": {
+            "cash_change": -8000000,
+            "monthly_burn_change": 3000000,
+            "monthly_revenue_change": 400000,
+            "subscriber_change": 40000,
+            "health_score_change": 5,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "A leaner team would have extended Quibi's runway significantly"
+        },
+        {
+          "id": "c",
+          "text": "Hire 60 people and outsource everything else",
+          "short_label": "Skeleton crew",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You keep the team tiny. But outsourcing means slower product iterations, more coordination friction, and contractors who don't care about your mission.",
+          "plain_english_explanation": "60 people saves you $7M/month vs the full hire. But outsourced teams are 40% slower on average. You'll fall behind on product improvements — and in streaming, product quality is everything.",
+          "concept_explained": "There's such a thing as too lean. You need enough people to build and improve the product. The goal is the minimum viable team, not the minimum possible team.",
+          "financial_impact": {
+            "cash_change": -5000000,
+            "monthly_burn_change": 1200000,
+            "monthly_revenue_change": 150000,
+            "subscriber_change": 15000,
+            "health_score_change": -3,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Hire 250 people but freeze all hiring the day you launch",
+          "short_label": "Hire then freeze",
+          "outcome_label": "BOLD",
+          "consequence_story": "You hire aggressively for launch, then hard-cap headcount the moment you go live. The team is complete — now execute.",
+          "plain_english_explanation": "250 people costs $5M/month. By committing to a hard freeze post-launch, you get a strong team without letting payroll spiral. Discipline here saves $3M/month vs uncapped hiring.",
+          "concept_explained": "A hiring freeze is a tool to control fixed costs. Setting the cap before you hire — not after — is what makes it effective.",
+          "financial_impact": {
+            "cash_change": -12000000,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 450000,
+            "subscriber_change": 45000,
+            "health_score_change": 2,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Salaries are the sneakiest part of burn rate — they compound every month without fail. Hiring 250 people instead of 400 doesn't feel dramatic, but the $5M/month difference is 2 extra months of runway over a year."
+    },
+    {
+      "id": "d4",
+      "decision_number": 4,
+      "situation": "It's launch week. Your monetization team proposes your subscription pricing. The app is mobile-only — designed for the 15-minute commute. Your target customer watches during their morning and evening train ride.",
+      "context": "Price too high and nobody signs up. Price too low and you never cover your costs. Your monthly content costs alone are $15M — you need real revenue.",
+      "concept_being_taught": "unit_economics",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Launch free for 90 days, then charge $7.99/month",
+          "short_label": "Free trial first",
+          "outcome_label": "RISKY",
+          "consequence_story": "Millions download the app for free. You throw a launch party. Then the trial ends — and 90% of users don't convert to paid. You have 90 days of zero revenue.",
+          "plain_english_explanation": "90 days of free means $0 in subscription revenue for 3 months. At $150M/month burn, that's $450M gone before you earn your first dollar. Free trials work for Netflix. Quibi can't afford them.",
+          "concept_explained": "Free trials make sense when you have unlimited runway. You have 11 months of cash. Every month without revenue is a month closer to zero.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": -500000,
+            "subscriber_change": 600000,
+            "health_score_change": -14,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi offered a 90-day free trial at launch — delaying revenue by 3 months"
+        },
+        {
+          "id": "b",
+          "text": "$4.99/month with ads, $7.99 without — start charging on day 1",
+          "short_label": "Dual tier, charge now",
+          "outcome_label": "SMART",
+          "consequence_story": "You start generating real revenue immediately. Not everyone signs up, but the people who do are actually paying you.",
+          "plain_english_explanation": "With 300,000 paid subscribers at $5/month average, you're bringing in $1.5M/month. That's not close to covering your $150M burn — but it's real money, growing every month, and it proves the business model works.",
+          "concept_explained": "Revenue from day 1 means you're building a business, not just building an audience. The sooner you charge, the sooner you know if people actually value what you built.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 1500000,
+            "subscriber_change": 280000,
+            "health_score_change": 8,
+            "runway_change": 1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "Starting revenue immediately would have improved Quibi's unit economics significantly"
+        },
+        {
+          "id": "c",
+          "text": "$2.99/month — undercut Netflix and maximize subscribers",
+          "short_label": "Race to bottom",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You get lots of subscribers. But at $2.99/month with $60 in content cost per subscriber per year, you're losing money on every single customer.",
+          "plain_english_explanation": "At $2.99/month, each subscriber pays you $36/year. But your content and infrastructure cost $60/subscriber/year. You lose $24 on every customer. The more subscribers you get, the more money you lose.",
+          "concept_explained": "This is the unit economics trap. If your cost to serve a customer is more than what they pay you, more subscribers means more losses. Scale makes it worse, not better.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 5000000,
+            "monthly_revenue_change": 900000,
+            "subscriber_change": 400000,
+            "health_score_change": -9,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "$9.99/month flat — premium positioning, fewer subscribers",
+          "short_label": "Premium play",
+          "outcome_label": "BOLD",
+          "consequence_story": "You position Quibi as a premium product. Fewer people subscribe, but the ones who do are paying nearly twice as much.",
+          "plain_english_explanation": "At $9.99, you need fewer subscribers to hit the same revenue. But your mobile-only app competing against Netflix, HBO, and Disney+ at $10/month is a hard sell. Subscriber growth slows dramatically.",
+          "concept_explained": "Premium pricing works when your product is clearly differentiated. Quibi's value proposition wasn't obvious enough to command $10 from mainstream consumers.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 800000,
+            "subscriber_change": 100000,
+            "health_score_change": -4,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Unit economics answer one question: do you make or lose money on each customer? If your LTV (lifetime value per customer) is less than your CAC plus cost to serve, no amount of growth saves you — you're just losing faster."
+    },
+    {
+      "id": "d5",
+      "decision_number": 5,
+      "situation": "It's March 13, 2020. COVID-19 lockdowns begin worldwide. Your app launches in 3 weeks. Quibi was built entirely for commuters — short videos for the train, the waiting room, the lunch break. Your target user is now trapped at home with a 65-inch TV.",
+      "context": "You can launch as planned in 3 weeks or delay to add Chromecast and Apple TV support. Adding TV support takes at least 10 weeks of engineering work.",
+      "concept_being_taught": "churn_rate",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Launch as planned — mobile only, stay the course",
+          "short_label": "Launch anyway",
+          "outcome_label": "RISKY",
+          "consequence_story": "You launch. App Store downloads spike on day 1. Then the reviews hit: 'Why can't I watch this on my TV?' 1-star reviews flood in. Subscribers churn faster than they sign up.",
+          "plain_english_explanation": "You launched a commuter app during the biggest work-from-home event in history. Your subscribers cancel at 30% monthly churn — meaning nearly 1 in 3 subscribers quits every single month. Revenue never builds.",
+          "concept_explained": "Churn rate is the percentage of customers who cancel each month. At 30% churn, even if you add 100,000 subscribers, you lose 30,000 of your existing ones. Net growth collapses.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": -800000,
+            "subscriber_change": -150000,
+            "health_score_change": -20,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi launched mobile-only on April 6, 2020, during full COVID lockdowns"
+        },
+        {
+          "id": "b",
+          "text": "Delay 10 weeks — add Chromecast and Apple TV support first",
+          "short_label": "Build for the TV",
+          "outcome_label": "SMART",
+          "consequence_story": "You delay. Investors are nervous. But 10 weeks later, you launch an app that works on every screen — phone, tablet, TV. The product actually fits the moment.",
+          "plain_english_explanation": "The delay costs $375M in additional burn (10 weeks at $150M/month). But with TV support, churn drops from 30% to 12%. More subscribers stay. Revenue builds. The extra burn is worth it.",
+          "concept_explained": "Sometimes spending more now saves your runway later. High churn kills revenue faster than any marketing budget can replace it. Fixing the product is cheaper than fighting churn.",
+          "financial_impact": {
+            "cash_change": -375000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 2500000,
+            "subscriber_change": 250000,
+            "health_score_change": 12,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "Quibi added Chromecast support 6 months after launch — far too late"
+        },
+        {
+          "id": "c",
+          "text": "Delay launch AND cut monthly burn by 40% while you wait",
+          "short_label": "Pause and cut",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You delay AND slash costs. Layoffs, contract freezes, office closures. Lean and waiting.",
+          "plain_english_explanation": "Cutting burn by 40% saves $60M/month. Over 10 weeks, that's $150M saved. You delay AND preserve cash. The downside: you lose key people during the cuts, and morale tanks.",
+          "concept_explained": "Cutting burn rate extends runway. But layoffs during a critical product pivot can destroy the team's ability to execute. Cash and talent are both resources — spending one to save the other has tradeoffs.",
+          "financial_impact": {
+            "cash_change": -100000000,
+            "monthly_burn_change": -60000000,
+            "monthly_revenue_change": 1500000,
+            "subscriber_change": 150000,
+            "health_score_change": 6,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Partner with Roku — get TV integration in exchange for a revenue share",
+          "short_label": "Partner for TV",
+          "outcome_label": "BOLD",
+          "consequence_story": "You call Roku's CEO. A distribution deal. They get a revenue share; you get on every smart TV in America in 3 weeks.",
+          "plain_english_explanation": "You pay Roku 15% of subscription revenue in exchange for TV distribution. That reduces your revenue per subscriber — but your total subscribers triple because you're suddenly available on 60 million Roku devices.",
+          "concept_explained": "Revenue share deals reduce your margin but multiply your distribution. Sometimes giving up 15% to reach 10x more customers is worth it — especially when the alternative is launching a broken product.",
+          "financial_impact": {
+            "cash_change": -50000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 3500000,
+            "subscriber_change": 350000,
+            "health_score_change": 9,
+            "runway_change": 0
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Churn rate is the silent killer — high churn means you pour subscribers in at the top while they leak out the bottom just as fast. Fix the product before you spend another dollar on marketing."
+    },
+    {
+      "id": "d6",
+      "decision_number": 6,
+      "situation": "It's two weeks after launch. You have 300,000 downloads but only 80,000 paying subscribers — a 73% drop-off. Your target was 7.4 million subscribers in year one. Reviews are brutal. The number one complaint: 'can't cast to TV.'",
+      "context": "You're burning $150M/month. At current subscriber conversion rates, monthly revenue is just $400,000. That's 0.27% of your monthly burn. Something has to change.",
+      "concept_being_taught": "runway",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Double down — spend $200M more on marketing to drive downloads",
+          "short_label": "Outspend the problem",
+          "outcome_label": "RISKY",
+          "consequence_story": "More ads. More downloads. More people trying the app. And then more 1-star reviews, more cancellations, more articles about Quibi failing. You're marketing a leaky bucket.",
+          "plain_english_explanation": "You spend $200M more to get 400,000 new downloads. But with 73% drop-off at signup and 30% monthly churn, you net maybe 30,000 new paying subscribers. That's $6,700 per new subscriber. The math is catastrophic.",
+          "concept_explained": "Marketing can't fix a product problem. If 73% of people who download your app don't subscribe, the problem is the product — not awareness. Spending more on marketing accelerates cash burn without fixing the real issue.",
+          "financial_impact": {
+            "cash_change": -200000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 150000,
+            "subscriber_change": 30000,
+            "health_score_change": -18,
+            "runway_change": -2
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi continued heavy marketing spend despite poor conversion rates"
+        },
+        {
+          "id": "b",
+          "text": "Freeze marketing. Fix the product. Emergency TV casting in 60 days.",
+          "short_label": "Fix first",
+          "outcome_label": "SMART",
+          "consequence_story": "You freeze all marketing. 100% of engineering focus goes to TV support. 60 days of near-zero growth. Then you relaunch.",
+          "plain_english_explanation": "You save $20M/month in marketing while fixing the product. 60 days later, you relaunch with TV support. Conversion rate jumps from 27% to 58%. Suddenly the same marketing budget gets you 2x the subscribers.",
+          "concept_explained": "Runway isn't just about how much cash you have — it's about how efficiently you spend it. Pausing marketing for 60 days to fix the product extends your effective runway by improving unit economics permanently.",
+          "financial_impact": {
+            "cash_change": -15000000,
+            "monthly_burn_change": -20000000,
+            "monthly_revenue_change": 1200000,
+            "subscriber_change": 120000,
+            "health_score_change": 14,
+            "runway_change": 2
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "Quibi added casting support in September 2020 — 5 months after launch, too late"
+        },
+        {
+          "id": "c",
+          "text": "Cut monthly burn by 50% immediately — lay off half the team",
+          "short_label": "Emergency cuts",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "Mass layoffs. Half the company is gone in a week. The offices go quiet. Your runway doubles — but your ability to improve the product is crippled.",
+          "plain_english_explanation": "Cutting 50% of costs saves $75M/month. That extends runway from 9 months to 18 months. But with half the engineering team gone, you can't ship the TV features customers need. You've bought time but can't use it.",
+          "concept_explained": "Extending runway matters only if you use the time productively. Cutting costs buys time — but if you cut too deep to execute your recovery plan, the extra months are worthless.",
+          "financial_impact": {
+            "cash_change": -30000000,
+            "monthly_burn_change": -75000000,
+            "monthly_revenue_change": -200000,
+            "subscriber_change": -50000,
+            "health_score_change": -5,
+            "runway_change": 5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Call Jeff Bezos — explore an Amazon Prime acquisition",
+          "short_label": "Find a buyer",
+          "outcome_label": "BOLD",
+          "consequence_story": "You make the call. Amazon is interested. But acquisition talks take 6 months — and you're still burning $150M/month the whole time.",
+          "plain_english_explanation": "Acquisitions don't stop the burn rate. During 6 months of deal negotiations, you'll spend $900M more. If the deal falls through, you have almost nothing left. Bold move, but devastating if it doesn't close.",
+          "concept_explained": "Runway doesn't pause during negotiations. Every month of acquisition talks is another month of full burn. If the deal takes longer than expected — which it almost always does — you run out of money before it closes.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -5,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Runway only matters if you're doing something useful with the time — marketing a broken product just burns cash faster without fixing the problem. Spend your runway on whatever is destroying your unit economics, not on amplifying the damage."
+    },
+    {
+      "id": "d7",
+      "decision_number": 7,
+      "situation": "Month 4. You have $700M left. At current burn rate, that's less than 5 months of runway. Subscribers are at 1.1 million — growing, but far below the 7.4 million you promised investors. They're nervous. One investor calls to say they're 'watching closely.'",
+      "context": "You can try to raise more money now while you still have $700M in the bank and time to negotiate. Or you can cut costs aggressively to extend runway without diluting existing shareholders.",
+      "concept_being_taught": "runway",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Raise $500M at the original valuation — act like everything is fine",
+          "short_label": "Raise at old terms",
+          "outcome_label": "RISKY",
+          "consequence_story": "You go back to investors asking for $500M at the same valuation as when you had no product, no subscribers, and nothing but optimism. They pass. Every single one.",
+          "plain_english_explanation": "Investors don't value companies based on what you raised before — they value based on current performance. With 1.1M subscribers vs 7.4M promised, your valuation has collapsed. Insisting on the old terms wastes months you don't have.",
+          "concept_explained": "Valuation is what investors think the company is worth today, not what you once hoped it would be worth. When performance misses projections, valuation drops — and refusing to accept that is how companies run out of money mid-negotiation.",
+          "financial_impact": {
+            "cash_change": 0,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -15,
+            "runway_change": -1
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi struggled to raise additional capital and could not secure a rescue round"
+        },
+        {
+          "id": "b",
+          "text": "Raise $300M at a realistic reduced valuation",
+          "short_label": "Take the haircut",
+          "outcome_label": "SMART",
+          "consequence_story": "You swallow your pride. You accept a valuation cut. The new investors write the check because the math makes sense at the lower price.",
+          "plain_english_explanation": "You raise $300M at a lower valuation — meaning existing shareholders own a smaller percentage. That hurts. But $300M gives you 2 more years of runway. Dilution is painful. Bankruptcy is fatal.",
+          "concept_explained": "Dilution means your ownership percentage shrinks when you raise new money. It feels bad, but 70% of a surviving company is worth infinitely more than 100% of a bankrupt one.",
+          "financial_impact": {
+            "cash_change": 300000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 500000,
+            "subscriber_change": 0,
+            "health_score_change": 10,
+            "runway_change": 3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": "Accepting a lower valuation earlier could have extended Quibi's runway to find product-market fit"
+        },
+        {
+          "id": "c",
+          "text": "Reject new funding — cut monthly burn in half instead",
+          "short_label": "Cut not dilute",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You refuse to dilute. You cut instead. Half the team is gone. Product velocity drops to zero. But you have 10 months of runway with the remaining cash.",
+          "plain_english_explanation": "Cutting burn from $150M to $75M/month doubles your runway from 4.5 months to 9 months. But with half the team gone and no new money, you can't improve the product fast enough to turn subscribers around.",
+          "concept_explained": "Runway = cash divided by monthly burn. Halving burn doubles runway. But runway is only useful if you can execute a turnaround with whatever resources remain after the cuts.",
+          "financial_impact": {
+            "cash_change": -50000000,
+            "monthly_burn_change": -75000000,
+            "monthly_revenue_change": 200000,
+            "subscriber_change": -80000,
+            "health_score_change": 2,
+            "runway_change": 4
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "d",
+          "text": "Sell the content library to a major studio for $600M",
+          "short_label": "Sell the assets",
+          "outcome_label": "BOLD",
+          "consequence_story": "You sell the $1B content library to Warner Bros for $600M. Less than you paid, but real cash today.",
+          "plain_english_explanation": "You get $600M from the sale — nearly doubling your remaining cash. But you sold the thing people came to Quibi to watch. Without the content, subscribers cancel in droves. You have cash but no product.",
+          "concept_explained": "Asset sales can solve a cash crisis but they can destroy your product in the process. Selling a core asset to extend runway only works if you have another asset to rebuild around.",
+          "financial_impact": {
+            "cash_change": 600000000,
+            "monthly_burn_change": -30000000,
+            "monthly_revenue_change": -1500000,
+            "subscriber_change": -300000,
+            "health_score_change": -8,
+            "runway_change": 5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "a",
+      "learning_moment": "Dilution is painful but optional — bankruptcy is fatal and unavoidable. When you need capital to survive, a smaller piece of a living company is worth infinitely more than a large piece of a dead one."
+    },
+    {
+      "id": "d8",
+      "decision_number": 8,
+      "situation": "Month 6. October 2020. You have $350M left. Subscribers plateaued at 1.5 million — far short of the 7.4 million needed to justify the business. Monthly revenue is $7.5M against a $150M monthly burn. You have 2 months until you hit zero.",
+      "context": "This is the final decision. You can fight to the last dollar, make a strategic move to survive, or wind down with integrity and return the remaining cash to investors.",
+      "concept_being_taught": "runway",
+      "hover_preview": true,
+      "options": [
+        {
+          "id": "a",
+          "text": "Burn the remaining $350M on a desperate pivot to long-form content",
+          "short_label": "Hail Mary pivot",
+          "outcome_label": "RISKY",
+          "consequence_story": "You spend everything chasing a pivot that takes 18 months to execute — but you have 2 months of cash. The lights go out before the pivot ships.",
+          "plain_english_explanation": "Pivoting costs time and money. With 2 months of runway, you can't pivot to anything meaningful. You burn $350M on something that never ships, and end up with $0 returned to investors instead of $350M.",
+          "concept_explained": "A pivot requires runway to execute. When you have 2 months of cash left, a pivot that takes 18 months isn't a strategy — it's denial. The remaining runway determines what options are realistically available.",
+          "financial_impact": {
+            "cash_change": -350000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": -500000,
+            "health_score_change": -30,
+            "runway_change": -3
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "b",
+          "text": "Cut to 15 people immediately and pivot to B2B content licensing",
+          "short_label": "Radical pivot",
+          "outcome_label": "BOLD",
+          "consequence_story": "You fire 99% of the company. 15 people. No office. No marketing. Just the product and the content library. You call every studio, network, and streaming service about licensing.",
+          "plain_english_explanation": "15 people costs $250,000/month. Your $350M now lasts over 100 months. You're no longer a consumer app. You're a content IP company. Tiny, but alive.",
+          "concept_explained": "Sometimes the only way to survive is to fundamentally change what you are. A radical cost cut can transform 2 months of runway into years — if the underlying asset (your content library) still has value.",
+          "financial_impact": {
+            "cash_change": -20000000,
+            "monthly_burn_change": -148000000,
+            "monthly_revenue_change": 3000000,
+            "subscriber_change": -1000000,
+            "health_score_change": 8,
+            "runway_change": 10
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        },
+        {
+          "id": "c",
+          "text": "Sell the content library and wind down the app gracefully",
+          "short_label": "Sell and wind down",
+          "outcome_label": "SMART",
+          "consequence_story": "You negotiate a deal. The content library sells for $100M. You combine it with the remaining $350M and return $400M to investors. Less than they put in — but something instead of nothing.",
+          "plain_english_explanation": "You return $400M out of $1.75B raised. That's a 77% loss for investors. It's bad. But compare it to burning the remaining cash on a hopeless pivot — that would have returned $0. Cutting your losses is financially responsible.",
+          "concept_explained": "Winding down with remaining cash is a financial decision, not just a business one. The question isn't 'can we keep going?' — you can always spend another dollar. It's 'will spending this last $350M produce more than $350M in value?' If no, stop.",
+          "financial_impact": {
+            "cash_change": 100000000,
+            "monthly_burn_change": -150000000,
+            "monthly_revenue_change": -7500000,
+            "subscriber_change": -1500000,
+            "health_score_change": 15,
+            "runway_change": 12
+          },
+          "is_what_real_company_did": true,
+          "real_company_note": "Quibi shut down October 2020, selling content to Roku and returning ~$350M to investors"
+        },
+        {
+          "id": "d",
+          "text": "Fight to the last dollar — burn everything and go out swinging",
+          "short_label": "Never surrender",
+          "outcome_label": "CONSERVATIVE",
+          "consequence_story": "You refuse to quit. You spend every last dollar. The servers go dark when the bank account hits zero. Employees haven't been paid in 3 weeks. Investors get $0.",
+          "plain_english_explanation": "You burned $1.75 billion and returned nothing. Every dollar of the remaining $350M is gone. Going down swinging feels heroic. The financial consequences are catastrophic — for investors, employees, and creditors.",
+          "concept_explained": "There is no financial virtue in burning every last dollar if the outcome is known. When the business model is broken and runway is measured in weeks, preserving remaining capital is the responsible decision.",
+          "financial_impact": {
+            "cash_change": -350000000,
+            "monthly_burn_change": 0,
+            "monthly_revenue_change": 0,
+            "subscriber_change": 0,
+            "health_score_change": -40,
+            "runway_change": -5
+          },
+          "is_what_real_company_did": false,
+          "real_company_note": null
+        }
+      ],
+      "real_company_choice": "c",
+      "learning_moment": "Knowing when to stop is a financial skill — the question is never 'can we keep going?' but 'will this dollar produce more value than it costs?' When the answer is no, preserving what's left is the right call."
+    }
+  ],
+  "endings": {
+    "bankrupt": {
+      "trigger_condition": "cash <= 0",
+      "story": "You've run out of money. Employees are let go. The servers go dark. Quibi is dead.",
+      "epitaph": "Quibi burned through $1.75 billion in 6 months. You followed the same path.",
+      "lesson": "Burn rate killed Quibi before the product ever had a chance to find its audience."
+    },
+    "saved": {
+      "trigger_condition": "health_score >= 60 AND runway_months >= 3 after decision 8",
+      "story": "Against all odds, you made the decisions the real Quibi team couldn't. The company survives.",
+      "lesson": "You extended runway, controlled burn rate, and gave the product time to find its market."
+    },
+    "struggling": {
+      "trigger_condition": "alive but health_score < 60",
+      "story": "You survived — barely. The company is on life support but still breathing.",
+      "lesson": "You made some smart calls but the financial foundation was still shaky."
+    }
+  },
+  "real_outcome": "Quibi shut down in October 2020, just 6 months after launch. It returned approximately $350M to investors — burning through $1.4B in the process.",
+  "concepts_taught": ["burn_rate", "runway", "customer_acquisition_cost", "churn_rate", "unit_economics", "dilution", "fixed_costs", "cash_management"],
+  "what_you_learned_summary": "Burn rate and runway determine how long you have to survive — and every commitment, salary, and free trial chips away at that clock. You learned that CAC and unit economics tell you whether each customer makes you money or costs you money, that churn silently destroys revenue faster than marketing can replace it, and that fixed costs compound whether or not your product is working. When the clock runs low, dilution beats bankruptcy — and knowing when to stop spending is as important as knowing when to start."
+}

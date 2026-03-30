@@ -1,0 +1,44 @@
+{
+  "name": "startup-autopsy-plugin",
+  "version": "1.0.0",
+  "description": "StartupAutopsy project tooling — scenario validation, balance checking, and submission readiness for Hackonomics 2026",
+  "skills": [
+    {
+      "name": "scenario-review",
+      "path": "../../skills/scenario-review/SKILL.md",
+      "description": "Validate a scenario JSON file for completeness, financial accuracy, and learning outcomes"
+    },
+    {
+      "name": "balance-check",
+      "path": "../../skills/balance-check/SKILL.md",
+      "description": "Simulate playthroughs to verify scenario difficulty calibration"
+    },
+    {
+      "name": "submission-check",
+      "path": "../../skills/submission-check/SKILL.md",
+      "description": "Full pre-submission audit against Hackonomics 2026 judging criteria"
+    },
+    {
+      "name": "code-review",
+      "path": "../../skills/code-review/SKILL.md",
+      "description": "Python and TypeScript code quality review against project conventions"
+    }
+  ],
+  "agents": [
+    {
+      "name": "researcher",
+      "path": "../../agents/researcher.md",
+      "description": "Research real financial data for failed startups (Haiku)"
+    },
+    {
+      "name": "scenario-builder",
+      "path": "../../agents/scenario-builder.md",
+      "description": "Build scenario JSON files from financial research (Sonnet)"
+    },
+    {
+      "name": "frontend",
+      "path": "../../agents/frontend.md",
+      "description": "Build Next.js components for the game UI (Sonnet)"
+    }
+  ]
+}
